@@ -3,3 +3,6 @@
 *.bak
 *-cache.lib
 *.net
+*.sch-bak
+*/rescue-backup/*
+fp-info-cache
