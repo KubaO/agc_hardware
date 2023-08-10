@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agc_kicad_components
-LIBS:digital_indicator-cache
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D165
+L Device:LED D165
 U 1 1 5870A873
 P 5600 2600
 AR Path="/58714278/5870A873" Ref="D165"  Part="1" 
@@ -81,7 +50,7 @@ Wire Wire Line
 Text HLabel 5850 2600 2    60   Output ~ 0
 SEG_A
 $Comp
-L LED D166
+L Device:LED D166
 U 1 1 5870A886
 P 5600 2900
 AR Path="/58714278/5870A886" Ref="D166"  Part="1" 
@@ -117,7 +86,7 @@ Wire Wire Line
 Text HLabel 5850 2900 2    60   Output ~ 0
 SEG_B
 $Comp
-L LED D167
+L Device:LED D167
 U 1 1 5870A898
 P 5600 3200
 AR Path="/58714278/5870A898" Ref="D167"  Part="1" 
@@ -153,7 +122,7 @@ Wire Wire Line
 Text HLabel 5850 3200 2    60   Output ~ 0
 SEG_C
 $Comp
-L LED D168
+L Device:LED D168
 U 1 1 5870A8AA
 P 5600 3500
 AR Path="/58714278/5870A8AA" Ref="D168"  Part="1" 
@@ -189,7 +158,7 @@ Wire Wire Line
 Text HLabel 5850 3500 2    60   Output ~ 0
 SEG_D
 $Comp
-L LED D169
+L Device:LED D169
 U 1 1 5870A8BE
 P 5600 3800
 AR Path="/58714278/5870A8BE" Ref="D169"  Part="1" 
@@ -225,7 +194,7 @@ Wire Wire Line
 Text HLabel 5850 3800 2    60   Output ~ 0
 SEG_E
 $Comp
-L LED D170
+L Device:LED D170
 U 1 1 5870A8D0
 P 5600 4100
 AR Path="/58714278/5870A8D0" Ref="D170"  Part="1" 
@@ -261,7 +230,7 @@ Wire Wire Line
 Text HLabel 5850 4100 2    60   Output ~ 0
 SEG_F
 $Comp
-L LED D171
+L Device:LED D171
 U 1 1 5870A8E2
 P 5600 2300
 AR Path="/58714278/5870A8E2" Ref="D171"  Part="1" 
@@ -300,7 +269,7 @@ Wire Wire Line
 	4350 2300 4400 2300
 Connection ~ 4350 2300
 $Comp
-L +12V #PWR039
+L power:+12V #PWR039
 U 1 1 58CC67AA
 P 4350 2150
 AR Path="/58714278/58CC67AA" Ref="#PWR039"  Part="1" 
@@ -332,7 +301,7 @@ F 3 "" H 4350 2150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R8_BUSSED RN1
+L agc_kicad_components:R8_BUSSED RN1
 U 1 1 58EB610D
 P 4700 2600
 AR Path="/58709A98/58EB610D" Ref="RN1"  Part="1" 

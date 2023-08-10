@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agc_kicad_components
-LIBS:digital_indicator-cache
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LED D58
+L Device:LED D58
 U 1 1 5871C85D
 P 3150 1450
 AR Path="/5871AD6C/5871C85D" Ref="D58"  Part="1" 
@@ -61,7 +30,7 @@ $EndComp
 Wire Wire Line
 	3800 1450 3750 1450
 $Comp
-L R R6
+L Device:R R6
 U 1 1 5871C865
 P 3600 1450
 AR Path="/5871AD6C/5871C865" Ref="R6"  Part="1" 
@@ -81,7 +50,7 @@ MINUS
 Wire Wire Line
 	2950 1450 2900 1450
 $Comp
-L LED D57
+L Device:LED D57
 U 1 1 5871C870
 P 3150 1750
 AR Path="/5871AD6C/5871C870" Ref="D57"  Part="1" 
@@ -97,7 +66,7 @@ $EndComp
 Wire Wire Line
 	3750 1750 3800 1750
 $Comp
-L R R7
+L Device:R R7
 U 1 1 5871C878
 P 3600 1750
 AR Path="/5871AD6C/5871C878" Ref="R7"  Part="1" 
@@ -115,7 +84,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 1750 2950 1750
 $Comp
-L LED D59
+L Device:LED D59
 U 1 1 5871C882
 P 3150 2050
 AR Path="/5871AD6C/5871C882" Ref="D59"  Part="1" 
@@ -137,7 +106,7 @@ Wire Wire Line
 	2900 1400 2900 2050
 Connection ~ 2900 1450
 $Comp
-L +12V #PWR044
+L power:+12V #PWR044
 U 1 1 58DA4063
 P 2900 1400
 AR Path="/5871AD6C/58DA4063" Ref="#PWR044"  Part="1" 

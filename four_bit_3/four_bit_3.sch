@@ -1,34 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:agc_kicad_components
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -46,7 +17,7 @@ $Sheet
 S 1750 1200 1400 7600
 U 568CB566
 F0 "A10_1" 60
-F1 "two_bit_columns.sch" 60
+F1 "../common/two_bit_columns.sch" 60
 F2 "A2XG/" I L 1750 1300 60 
 F3 "_SETX_1" I L 1750 3750 60 
 F4 "CLXC" I L 1750 1800 60 
@@ -153,7 +124,7 @@ F104 "_WHOMP_1" I L 1750 8500 60
 F105 "_WHOMP_2" I L 1750 8600 60 
 $EndSheet
 $Comp
-L DIN_41612_128P P1
+L agc_kicad_components:DIN_41612_128P P1
 U 1 1 568CB567
 P 8700 2500
 F 0 "P1" H 8700 4150 50  0000 C CNN
@@ -164,7 +135,7 @@ F 3 "" H 8700 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIN_41612_128P P1
+L agc_kicad_components:DIN_41612_128P P1
 U 2 1 568CB568
 P 9650 2500
 F 0 "P1" H 9650 4150 50  0000 C CNN
@@ -175,7 +146,7 @@ F 3 "" H 9650 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIN_41612_128P P1
+L agc_kicad_components:DIN_41612_128P P1
 U 3 1 568CB569
 P 10650 2500
 F 0 "P1" H 10650 4150 50  0000 C CNN
@@ -186,7 +157,7 @@ F 3 "" H 10650 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIN_41612_128P P1
+L agc_kicad_components:DIN_41612_128P P1
 U 4 1 568CB56A
 P 11850 2500
 F 0 "P1" H 11850 4150 50  0000 C CNN
@@ -197,7 +168,7 @@ F 3 "" H 11850 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 568CB56B
 P 11550 4200
 F 0 "#PWR01" H 11550 3950 50  0001 C CNN
@@ -208,7 +179,7 @@ F 3 "" H 11550 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIN_41612_128P P1
+L agc_kicad_components:DIN_41612_128P P1
 U 5 1 568CB56C
 P 12650 2500
 F 0 "P1" H 12650 4150 50  0000 C CNN
@@ -219,7 +190,7 @@ F 3 "" H 12650 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 568CB56D
 P 12350 4200
 F 0 "#PWR02" H 12350 3950 50  0001 C CNN
@@ -230,7 +201,7 @@ F 3 "" H 12350 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIN_41612_128P P1
+L agc_kicad_components:DIN_41612_128P P1
 U 6 1 568CB56E
 P 13500 2500
 F 0 "P1" H 13500 4150 50  0000 C CNN
@@ -241,7 +212,7 @@ F 3 "" H 13500 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 568CB56F
 P 13200 4200
 F 0 "#PWR03" H 13200 3950 50  0001 C CNN
@@ -251,116 +222,6 @@ F 3 "" H 13200 4200 60  0000 C CNN
 	1    13200 4200
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 4800 1200 1400 7600
-U 568CB571
-F0 "A10_2" 60
-F1 "two_bit_columns.sch" 60
-F2 "A2XG/" I L 4800 1300 60 
-F3 "_SETX_1" I L 4800 3750 60 
-F4 "CLXC" I L 4800 1800 60 
-F5 "CUG" I L 4800 2000 60 
-F6 "_WYHILOG" I L 4800 7300 60 
-F7 "_WL_WYD_1" I L 4800 8250 60 
-F8 "_WYDG_1" I L 4800 7100 60 
-F9 "_XUY1" O R 6200 3350 60 
-F10 "_SUMA1" O R 6200 2950 60 
-F11 "_CI_IN" I L 4800 3550 60 
-F12 "_SUMB1" O R 6200 3150 60 
-F13 "_RUG_1" I L 4800 6050 60 
-F14 "_XUY_IN1" I L 4800 3950 60 
-F15 "_CO_OUT" O R 6200 2850 60 
-F16 "WAG/" I L 4800 2900 60 
-F17 "WALSG/" I L 4800 3000 60 
-F18 "_WALSG_IN1" I L 4800 6300 60 
-F19 "CAG" I L 4800 1400 60 
-F20 "_A1/" O R 6200 1300 60 
-F21 "RAG/" I L 4800 2300 60 
-F22 "_CH1" I L 4800 4200 60 
-F23 "WLG/" I L 4800 3200 60 
-F24 "_L_OP/" I L 4800 4900 60 
-F25 "_L_OP_IN1" I L 4800 5000 60 
-F26 "_CLG" I L 4800 1700 60 
-F27 "_L1/" O R 6200 2100 60 
-F28 "RLG/" I L 4800 2600 60 
-F29 "WQG/" I L 4800 3300 60 
-F30 "CQG" I L 4800 1900 60 
-F31 "RQG/" I L 4800 2700 60 
-F32 "WZG/" I L 4800 3400 60 
-F33 "CZG" I L 4800 2100 60 
-F34 "_Z1/" O R 6200 2500 60 
-F35 "RZG/" I L 4800 2800 60 
-F36 "_Q1/" O R 6200 2300 60 
-F37 "_MDT_1" I L 4800 5450 60 
-F38 "_WL_EXTRA1_1" I L 4800 7450 60 
-F39 "_WL_EXTRA2_1" I L 4800 7650 60 
-F40 "WBG/" I L 4800 3100 60 
-F41 "CBG" I L 4800 1500 60 
-F42 "_B1/" O R 6200 1500 60 
-F43 "_RBG/" I L 4800 5950 60 
-F44 "RCG/" I L 4800 2400 60 
-F45 "_SA_1" I L 4800 5700 60 
-F46 "CGG" I L 4800 1600 60 
-F47 "RGG/" I L 4800 2500 60 
-F48 "_GEM1" O R 6200 3600 60 
-F49 "_LINH_1" I L 4800 5200 60 
-F50 "_G_ED_1" I L 4800 4450 60 
-F51 "_G1" O R 6200 1700 60 
-F52 "_G1/" O R 6200 1800 60 
-F53 "_WLM_1/" I L 4800 7850 60 
-F54 "_WLP_1/" I L 4800 8050 60 
-F55 "_WG3G_1" I L 4800 6700 60 
-F56 "_WG45G_1" I L 4800 6900 60 
-F57 "L2GDG/" I L 4800 2200 60 
-F58 "_L_IN_1" I L 4800 4700 60 
-F59 "_WG12G_1" I L 4800 6500 60 
-F60 "_WL1" O R 6200 4050 60 
-F61 "_WL1/" O R 6200 4150 60 
-F62 "_MWL1" O R 6200 4750 60 
-F63 "_CI_OUT" O R 6200 2750 60 
-F64 "_CO_IN" I L 4800 3650 60 
-F65 "_XUY_IN2" I L 4800 4050 60 
-F66 "_RUG_2" I L 4800 6150 60 
-F67 "_SUMB2" O R 6200 3250 60 
-F68 "_SUMA2" O R 6200 3050 60 
-F69 "_XUY2" O R 6200 3450 60 
-F70 "_WYDG_2" I L 4800 7200 60 
-F71 "_WL_WYD_2" I L 4800 8350 60 
-F72 "_SETX_2" I L 4800 3850 60 
-F73 "_WALSG_IN2" I L 4800 6400 60 
-F74 "_A2/" O R 6200 1400 60 
-F75 "_CH2" I L 4800 4300 60 
-F76 "_LINH_2" I L 4800 5300 60 
-F77 "_WL_EXTRA2_2" I L 4800 7750 60 
-F78 "_WL_EXTRA1_2" I L 4800 7550 60 
-F79 "_MDT_2" I L 4800 5550 60 
-F80 "_Q2/" O R 6200 2400 60 
-F81 "_Z2/" O R 6200 2600 60 
-F82 "_L2/" O R 6200 2200 60 
-F83 "_L_OP_IN2" I L 4800 5100 60 
-F84 "_B2/" O R 6200 1600 60 
-F85 "_SA_2" I L 4800 5800 60 
-F86 "_GEM2" O R 6200 3700 60 
-F87 "_G_ED_2" I L 4800 4550 60 
-F88 "_G2" O R 6200 1900 60 
-F89 "_G2/" O R 6200 2000 60 
-F90 "_WLM_2/" I L 4800 7950 60 
-F91 "_WLP_2/" I L 4800 8150 60 
-F92 "_WG3G_2" I L 4800 6800 60 
-F93 "_WG45G_2" I L 4800 7000 60 
-F94 "_L_IN_2" I L 4800 4800 60 
-F95 "_WG12G_2" I L 4800 6600 60 
-F96 "_WL2" O R 6200 4250 60 
-F97 "_WL2/" O R 6200 4350 60 
-F98 "_MWL2" O R 6200 4850 60 
-F99 "_RL1/" O R 6200 3850 60 
-F100 "_RL2/" O R 6200 3950 60 
-F101 "_RL_OUT_2" O R 6200 4600 60 
-F102 "_RL_OUT_1" O R 6200 4500 60 
-F103 "_WHOMPA" I L 4800 8700 60 
-F104 "_WHOMP_1" I L 4800 8500 60 
-F105 "_WHOMP_2" I L 4800 8600 60 
-$EndSheet
 Text GLabel 1650 1300 0    60   Input ~ 0
 A2XG/
 Text GLabel 8400 950  0    60   Output ~ 0
@@ -530,7 +391,7 @@ CH11
 Text GLabel 8400 3950 0    60   Output ~ 0
 CH12
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 568CB572
 P 950 4600
 F 0 "#PWR04" H 950 4350 50  0001 C CNN
@@ -541,7 +402,7 @@ F 3 "" H 950 4600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 568CB573
 P 4250 5350
 F 0 "#PWR05" H 4250 5100 50  0001 C CNN
@@ -692,7 +553,7 @@ WL10/
 Text GLabel 4700 8350 0    60   Input ~ 0
 WL11/
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 568CB574
 P 10350 4200
 F 0 "#PWR06" H 10350 3950 50  0001 C CNN
@@ -810,7 +671,7 @@ Wire Wire Line
 	11550 4050 11650 4050
 Connection ~ 11550 4050
 Wire Wire Line
-	11550 950  11550 4200
+	11550 950  11550 1050
 Wire Wire Line
 	12450 950  12350 950 
 Wire Wire Line
@@ -907,7 +768,7 @@ Wire Wire Line
 	12350 4050 12450 4050
 Connection ~ 12350 4050
 Wire Wire Line
-	12350 950  12350 4200
+	12350 950  12350 1050
 Wire Wire Line
 	13300 1150 13200 1150
 Connection ~ 13200 1150
@@ -999,7 +860,7 @@ Wire Wire Line
 	13200 4050 13300 4050
 Connection ~ 13200 4050
 Wire Wire Line
-	13200 1050 13200 4200
+	13200 1050 13200 1150
 Wire Wire Line
 	13200 1050 13300 1050
 Wire Wire Line
@@ -1155,7 +1016,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3150 8400 3150
 Wire Wire Line
-	4700 3750 4800 3750
+	4700 3750 4750 3750
 Wire Wire Line
 	4750 3750 4750 3850
 Wire Wire Line
@@ -1210,14 +1071,14 @@ Wire Wire Line
 Wire Wire Line
 	1750 4450 950  4450
 Wire Wire Line
-	950  4450 950  4600
+	950  4450 950  4550
 Wire Wire Line
 	1750 4550 950  4550
 Connection ~ 950  4550
 Wire Wire Line
 	4800 5200 4250 5200
 Wire Wire Line
-	4250 5200 4250 5350
+	4250 5200 4250 5300
 Wire Wire Line
 	4800 5300 4250 5300
 Connection ~ 4250 5300
@@ -1292,14 +1153,14 @@ Wire Wire Line
 Wire Wire Line
 	9450 2250 9350 2250
 Wire Wire Line
-	1650 6050 1750 6050
+	1650 6050 1700 6050
 Wire Wire Line
 	1700 6050 1700 6150
 Wire Wire Line
 	1700 6150 1750 6150
 Connection ~ 1700 6050
 Wire Wire Line
-	4700 6050 4800 6050
+	4700 6050 4750 6050
 Wire Wire Line
 	4750 6050 4750 6150
 Wire Wire Line
@@ -1320,14 +1181,14 @@ Wire Wire Line
 Wire Wire Line
 	9450 2550 9350 2550
 Wire Wire Line
-	1650 6500 1750 6500
+	1650 6500 1700 6500
 Wire Wire Line
 	1700 6500 1700 6600
 Wire Wire Line
 	1700 6600 1750 6600
 Connection ~ 1700 6500
 Wire Wire Line
-	4700 6500 4800 6500
+	4700 6500 4750 6500
 Wire Wire Line
 	4750 6500 4750 6600
 Wire Wire Line
@@ -1336,14 +1197,14 @@ Connection ~ 4750 6500
 Wire Wire Line
 	9350 2650 9450 2650
 Wire Wire Line
-	1650 6700 1750 6700
+	1650 6700 1700 6700
 Wire Wire Line
 	1700 6700 1700 6800
 Wire Wire Line
 	1700 6800 1750 6800
 Connection ~ 1700 6700
 Wire Wire Line
-	4700 6700 4800 6700
+	4700 6700 4750 6700
 Wire Wire Line
 	4750 6700 4750 6800
 Wire Wire Line
@@ -1352,14 +1213,14 @@ Connection ~ 4750 6700
 Wire Wire Line
 	9350 2750 9450 2750
 Wire Wire Line
-	1650 6900 1750 6900
+	1650 6900 1700 6900
 Wire Wire Line
 	1700 6900 1700 7000
 Wire Wire Line
 	1700 7000 1750 7000
 Connection ~ 1700 6900
 Wire Wire Line
-	4700 6900 4800 6900
+	4700 6900 4750 6900
 Wire Wire Line
 	4750 6900 4750 7000
 Wire Wire Line
@@ -1368,9 +1229,9 @@ Connection ~ 4750 6900
 Wire Wire Line
 	9350 2850 9450 2850
 Wire Wire Line
-	1650 7100 1750 7100
+	1650 7100 1700 7100
 Wire Wire Line
-	4700 7100 4800 7100
+	4700 7100 4750 7100
 Wire Wire Line
 	4750 7100 4750 7200
 Wire Wire Line
@@ -1383,7 +1244,7 @@ Wire Wire Line
 Wire Wire Line
 	9450 3050 9350 3050
 Wire Wire Line
-	4700 7450 4800 7450
+	4700 7450 4750 7450
 Wire Wire Line
 	4800 7550 4750 7550
 Wire Wire Line
@@ -1435,7 +1296,7 @@ Wire Wire Line
 Wire Wire Line
 	8500 3250 8400 3250
 Wire Wire Line
-	1650 3750 1750 3750
+	1650 3750 1700 3750
 Wire Wire Line
 	1700 3750 1700 3850
 Wire Wire Line
@@ -1471,7 +1332,7 @@ Connection ~ 1700 7100
 Text GLabel 1650 7450 0    60   Input ~ 0
 R1C
 Wire Wire Line
-	1650 7450 1750 7450
+	1650 7450 1700 7450
 Wire Wire Line
 	1750 7550 1700 7550
 Wire Wire Line
@@ -1480,19 +1341,19 @@ Connection ~ 1700 7450
 Wire Wire Line
 	4800 7650 4250 7650
 Wire Wire Line
-	4250 7650 4250 7800
+	4250 7650 4250 7750
 Wire Wire Line
 	4800 7750 4250 7750
 Connection ~ 4250 7750
 Wire Wire Line
 	1750 7650 1200 7650
 Wire Wire Line
-	1200 7650 1200 7800
+	1200 7650 1200 7750
 Wire Wire Line
 	1750 7750 1200 7750
 Connection ~ 1200 7750
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 568CB576
 P 1200 7800
 F 0 "#PWR07" H 1200 7550 50  0001 C CNN
@@ -1503,7 +1364,7 @@ F 3 "" H 1200 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 568CB577
 P 4250 7800
 F 0 "#PWR08" H 4250 7550 50  0001 C CNN
@@ -1514,7 +1375,7 @@ F 3 "" H 4250 7800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5694F902
 P 3900 4600
 F 0 "#PWR09" H 3900 4350 50  0001 C CNN
@@ -1527,14 +1388,14 @@ $EndComp
 Wire Wire Line
 	4800 4450 3900 4450
 Wire Wire Line
-	3900 4450 3900 4600
+	3900 4450 3900 4550
 Wire Wire Line
 	4800 4550 3900 4550
 Connection ~ 3900 4550
 Text Label 3250 2200 0    60   ~ 0
 L10/
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 569B64DB
 P 1200 5350
 F 0 "#PWR010" H 1200 5100 50  0001 C CNN
@@ -1547,7 +1408,7 @@ $EndComp
 Wire Wire Line
 	1750 5200 1200 5200
 Wire Wire Line
-	1200 5200 1200 5350
+	1200 5200 1200 5300
 Wire Wire Line
 	1750 5300 1200 5300
 Connection ~ 1200 5300
@@ -1654,9 +1515,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 8600 1150 8600
 Wire Wire Line
-	1150 8500 1150 8750
+	1150 8500 1150 8600
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 56CB21B7
 P 1150 8750
 F 0 "#PWR011" H 1150 8500 50  0001 C CNN
@@ -1677,9 +1538,9 @@ Wire Wire Line
 Wire Wire Line
 	4800 8500 4200 8500
 Wire Wire Line
-	4200 8500 4200 8850
+	4200 8500 4200 8700
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 56CD3B72
 P 4200 8850
 F 0 "#PWR012" H 4200 8600 50  0001 C CNN
@@ -1896,9 +1757,9 @@ MWL11
 Wire Wire Line
 	10450 3750 10350 3750
 Wire Wire Line
-	10350 3950 10350 4200
+	10350 3950 10350 4050
 $Comp
-L +4VSW #PWR013
+L agc_kicad_components:+4VSW #PWR013
 U 1 1 5819259D
 P 13200 800
 F 0 "#PWR013" H 13200 650 50  0001 C CNN
@@ -1909,7 +1770,7 @@ F 3 "" H 13200 800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC14E
 P 7600 5150
 AR Path="/581C71C8/581CC14E" Ref="U?"  Part="5" 
@@ -1922,7 +1783,7 @@ F 3 "" H 7600 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC155
 P 8000 5150
 AR Path="/581C71C8/581CC155" Ref="U?"  Part="4" 
@@ -1935,7 +1796,7 @@ F 3 "" H 8000 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC15C
 P 8400 5150
 AR Path="/581C71C8/581CC15C" Ref="U?"  Part="5" 
@@ -1948,7 +1809,7 @@ F 3 "" H 8400 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC163
 P 8800 5150
 AR Path="/581C71C8/581CC163" Ref="U?"  Part="4" 
@@ -1961,7 +1822,7 @@ F 3 "" H 8800 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U?
+L agc_kicad_components:74HC04 U?
 U 7 1 581CC16A
 P 9200 5150
 AR Path="/581C71C8/581CC16A" Ref="U?"  Part="7" 
@@ -1974,7 +1835,7 @@ F 3 "" H 9200 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC171
 P 9600 5150
 AR Path="/581C71C8/581CC171" Ref="U?"  Part="5" 
@@ -1987,7 +1848,7 @@ F 3 "" H 9600 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U?
+L agc_kicad_components:74LVC07 U?
 U 7 1 581CC178
 P 10000 5150
 AR Path="/581C71C8/581CC178" Ref="U?"  Part="7" 
@@ -2000,7 +1861,7 @@ F 3 "" H 10000 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC17F
 P 10400 5150
 AR Path="/581C71C8/581CC17F" Ref="U?"  Part="5" 
@@ -2013,7 +1874,7 @@ F 3 "" H 10400 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC186
 P 10800 5150
 AR Path="/581C71C8/581CC186" Ref="U?"  Part="5" 
@@ -2026,7 +1887,7 @@ F 3 "" H 10800 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC18D
 P 11200 5150
 AR Path="/581C71C8/581CC18D" Ref="U?"  Part="5" 
@@ -2039,7 +1900,7 @@ F 3 "" H 11200 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC194
 P 11600 5150
 AR Path="/581C71C8/581CC194" Ref="U?"  Part="4" 
@@ -2052,7 +1913,7 @@ F 3 "" H 11600 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC19B
 P 12000 5150
 AR Path="/581C71C8/581CC19B" Ref="U?"  Part="5" 
@@ -2065,7 +1926,7 @@ F 3 "" H 12000 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U?
+L agc_kicad_components:74LVC07 U?
 U 7 1 581CC1A2
 P 12400 5150
 AR Path="/581C71C8/581CC1A2" Ref="U?"  Part="7" 
@@ -2078,7 +1939,7 @@ F 3 "" H 12400 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC1A9
 P 12800 5150
 AR Path="/581C71C8/581CC1A9" Ref="U?"  Part="5" 
@@ -2091,7 +1952,7 @@ F 3 "" H 12800 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC1B0
 P 13200 5150
 AR Path="/581C71C8/581CC1B0" Ref="U?"  Part="4" 
@@ -2104,7 +1965,7 @@ F 3 "" H 13200 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC1B7
 P 13600 5150
 AR Path="/581C71C8/581CC1B7" Ref="U?"  Part="5" 
@@ -2117,7 +1978,7 @@ F 3 "" H 13600 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC1BE
 P 14000 5150
 AR Path="/581C71C8/581CC1BE" Ref="U?"  Part="4" 
@@ -2130,7 +1991,7 @@ F 3 "" H 14000 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC4002 U?
+L agc_kicad_components:74HC4002 U?
 U 3 1 581CC1C5
 P 14400 5150
 AR Path="/581C71C8/581CC1C5" Ref="U?"  Part="3" 
@@ -2143,7 +2004,7 @@ F 3 "" H 14400 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC1CC
 P 14800 5150
 AR Path="/581C71C8/581CC1CC" Ref="U?"  Part="5" 
@@ -2156,7 +2017,7 @@ F 3 "" H 14800 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC1D3
 P 15200 5150
 AR Path="/581C71C8/581CC1D3" Ref="U?"  Part="4" 
@@ -2169,7 +2030,7 @@ F 3 "" H 15200 5150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC1DA
 P 7600 6200
 AR Path="/581C71C8/581CC1DA" Ref="U?"  Part="5" 
@@ -2182,7 +2043,7 @@ F 3 "" H 7600 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC1E1
 P 8000 6200
 AR Path="/581C71C8/581CC1E1" Ref="U?"  Part="4" 
@@ -2195,7 +2056,7 @@ F 3 "" H 8000 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC1E8
 P 8400 6200
 AR Path="/581C71C8/581CC1E8" Ref="U?"  Part="5" 
@@ -2208,7 +2069,7 @@ F 3 "" H 8400 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC1EF
 P 8800 6200
 AR Path="/581C71C8/581CC1EF" Ref="U?"  Part="4" 
@@ -2221,7 +2082,7 @@ F 3 "" H 8800 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC1F6
 P 9200 6200
 AR Path="/581C71C8/581CC1F6" Ref="U?"  Part="5" 
@@ -2234,7 +2095,7 @@ F 3 "" H 9200 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC1FD
 P 9600 6200
 AR Path="/581C71C8/581CC1FD" Ref="U?"  Part="4" 
@@ -2247,7 +2108,7 @@ F 3 "" H 9600 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC204
 P 10000 6200
 AR Path="/581C71C8/581CC204" Ref="U?"  Part="5" 
@@ -2260,7 +2121,7 @@ F 3 "" H 10000 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U?
+L agc_kicad_components:74LVC07 U?
 U 7 1 581CC20B
 P 10400 6200
 AR Path="/581C71C8/581CC20B" Ref="U?"  Part="7" 
@@ -2273,7 +2134,7 @@ F 3 "" H 10400 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC212
 P 10800 6200
 AR Path="/581C71C8/581CC212" Ref="U?"  Part="5" 
@@ -2286,7 +2147,7 @@ F 3 "" H 10800 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC219
 P 11200 6200
 AR Path="/581C71C8/581CC219" Ref="U?"  Part="5" 
@@ -2299,7 +2160,7 @@ F 3 "" H 11200 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC220
 P 11600 6200
 AR Path="/581C71C8/581CC220" Ref="U?"  Part="4" 
@@ -2312,7 +2173,7 @@ F 3 "" H 11600 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC227
 P 12000 6200
 AR Path="/581C71C8/581CC227" Ref="U?"  Part="5" 
@@ -2325,7 +2186,7 @@ F 3 "" H 12000 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC22E
 P 12400 6200
 AR Path="/581C71C8/581CC22E" Ref="U?"  Part="5" 
@@ -2338,7 +2199,7 @@ F 3 "" H 12400 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U?
+L agc_kicad_components:74HC04 U?
 U 7 1 581CC235
 P 12800 6200
 AR Path="/581C71C8/581CC235" Ref="U?"  Part="7" 
@@ -2351,7 +2212,7 @@ F 3 "" H 12800 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC23C
 P 13200 6200
 AR Path="/581C71C8/581CC23C" Ref="U?"  Part="5" 
@@ -2364,7 +2225,7 @@ F 3 "" H 13200 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC243
 P 13600 6200
 AR Path="/581C71C8/581CC243" Ref="U?"  Part="4" 
@@ -2377,7 +2238,7 @@ F 3 "" H 13600 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC24A
 P 14000 6200
 AR Path="/581C71C8/581CC24A" Ref="U?"  Part="5" 
@@ -2390,7 +2251,7 @@ F 3 "" H 14000 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC251
 P 14400 6200
 AR Path="/581C71C8/581CC251" Ref="U?"  Part="4" 
@@ -2403,7 +2264,7 @@ F 3 "" H 14400 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U?
+L agc_kicad_components:74HC04 U?
 U 7 1 581CC258
 P 14800 6200
 AR Path="/581C71C8/581CC258" Ref="U?"  Part="7" 
@@ -2416,7 +2277,7 @@ F 3 "" H 14800 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC25F
 P 15200 6200
 AR Path="/581C71C8/581CC25F" Ref="U?"  Part="5" 
@@ -2429,7 +2290,7 @@ F 3 "" H 15200 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U?
+L agc_kicad_components:74LVC07 U?
 U 7 1 581CC266
 P 7600 7250
 AR Path="/581C71C8/581CC266" Ref="U?"  Part="7" 
@@ -2442,7 +2303,7 @@ F 3 "" H 7600 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC26D
 P 8000 7250
 AR Path="/581C71C8/581CC26D" Ref="U?"  Part="4" 
@@ -2455,7 +2316,7 @@ F 3 "" H 8000 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC274
 P 8400 7250
 AR Path="/581C71C8/581CC274" Ref="U?"  Part="5" 
@@ -2468,7 +2329,7 @@ F 3 "" H 8400 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC27B
 P 8800 7250
 AR Path="/581C71C8/581CC27B" Ref="U?"  Part="4" 
@@ -2481,7 +2342,7 @@ F 3 "" H 8800 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC282
 P 9200 7250
 AR Path="/581C71C8/581CC282" Ref="U?"  Part="5" 
@@ -2494,7 +2355,7 @@ F 3 "" H 9200 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC289
 P 9600 7250
 AR Path="/581C71C8/581CC289" Ref="U?"  Part="5" 
@@ -2507,7 +2368,7 @@ F 3 "" H 9600 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC290
 P 10000 7250
 AR Path="/581C71C8/581CC290" Ref="U?"  Part="5" 
@@ -2520,7 +2381,7 @@ F 3 "" H 10000 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC297
 P 10400 7250
 AR Path="/581C71C8/581CC297" Ref="U?"  Part="5" 
@@ -2533,7 +2394,7 @@ F 3 "" H 10400 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC29E
 P 10800 7250
 AR Path="/581C71C8/581CC29E" Ref="U?"  Part="4" 
@@ -2546,7 +2407,7 @@ F 3 "" H 10800 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U?
+L agc_kicad_components:74LVC07 U?
 U 7 1 581CC2A5
 P 11200 7250
 AR Path="/581C71C8/581CC2A5" Ref="U?"  Part="7" 
@@ -2559,7 +2420,7 @@ F 3 "" H 11200 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2AC
 P 11600 7250
 AR Path="/581C71C8/581CC2AC" Ref="U?"  Part="5" 
@@ -2572,7 +2433,7 @@ F 3 "" H 11600 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC4002 U?
+L agc_kicad_components:74HC4002 U?
 U 3 1 581CC2B3
 P 12000 7250
 AR Path="/581C71C8/581CC2B3" Ref="U?"  Part="3" 
@@ -2585,7 +2446,7 @@ F 3 "" H 12000 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2BA
 P 12400 7250
 AR Path="/581C71C8/581CC2BA" Ref="U?"  Part="5" 
@@ -2598,7 +2459,7 @@ F 3 "" H 12400 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC2C1
 P 12800 7250
 AR Path="/581C71C8/581CC2C1" Ref="U?"  Part="4" 
@@ -2611,7 +2472,7 @@ F 3 "" H 12800 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2C8
 P 13200 7250
 AR Path="/581C71C8/581CC2C8" Ref="U?"  Part="5" 
@@ -2624,7 +2485,7 @@ F 3 "" H 13200 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2CF
 P 13600 7250
 AR Path="/581C71C8/581CC2CF" Ref="U?"  Part="5" 
@@ -2637,7 +2498,7 @@ F 3 "" H 13600 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC2D6
 P 14000 7250
 AR Path="/581C71C8/581CC2D6" Ref="U?"  Part="4" 
@@ -2650,7 +2511,7 @@ F 3 "" H 14000 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2DD
 P 14400 7250
 AR Path="/581C71C8/581CC2DD" Ref="U?"  Part="5" 
@@ -2663,7 +2524,7 @@ F 3 "" H 14400 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U?
+L agc_kicad_components:74HC27 U?
 U 4 1 581CC2E4
 P 14800 7250
 AR Path="/581C71C8/581CC2E4" Ref="U?"  Part="4" 
@@ -2676,7 +2537,7 @@ F 3 "" H 14800 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2EB
 P 15200 7250
 AR Path="/581C71C8/581CC2EB" Ref="U?"  Part="5" 
@@ -2689,7 +2550,7 @@ F 3 "" H 15200 7250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U?
+L agc_kicad_components:74LVC07 U?
 U 7 1 581CC2F2
 P 10200 8300
 AR Path="/581C71C8/581CC2F2" Ref="U?"  Part="7" 
@@ -2702,7 +2563,7 @@ F 3 "" H 10200 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC2F9
 P 10600 8300
 AR Path="/581C71C8/581CC2F9" Ref="U?"  Part="5" 
@@ -2715,7 +2576,7 @@ F 3 "" H 10600 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC300
 P 11000 8300
 AR Path="/581C71C8/581CC300" Ref="U?"  Part="5" 
@@ -2728,7 +2589,7 @@ F 3 "" H 11000 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U?
+L agc_kicad_components:74HC02 U?
 U 5 1 581CC307
 P 11400 8300
 AR Path="/581C71C8/581CC307" Ref="U?"  Part="5" 
@@ -2741,7 +2602,7 @@ F 3 "" H 11400 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U?
+L agc_kicad_components:74HC04 U?
 U 7 1 581CC30E
 P 11800 8300
 AR Path="/581C71C8/581CC30E" Ref="U?"  Part="7" 
@@ -2754,7 +2615,7 @@ F 3 "" H 11800 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC4002 U?
+L agc_kicad_components:74HC4002 U?
 U 3 1 581CC315
 P 12200 8300
 AR Path="/581C71C8/581CC315" Ref="U?"  Part="3" 
@@ -2767,7 +2628,7 @@ F 3 "" H 12200 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC4002 U?
+L agc_kicad_components:74HC4002 U?
 U 3 1 581CC31C
 P 12600 8300
 AR Path="/581C71C8/581CC31C" Ref="U?"  Part="3" 
@@ -2780,21 +2641,21 @@ F 3 "" H 12600 8300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7600 4900 15200 4900
+	7600 4900 8000 4900
 Wire Wire Line
-	7600 5400 15200 5400
+	7600 5400 8000 5400
 Wire Wire Line
-	7600 5950 15200 5950
+	7600 5950 8000 5950
 Wire Wire Line
-	7600 6450 15200 6450
+	7600 6450 8000 6450
 Wire Wire Line
-	7600 7000 15200 7000
+	7600 7000 8000 7000
 Wire Wire Line
-	7600 7500 15200 7500
+	7600 7500 8000 7500
 Wire Wire Line
-	10200 8050 13000 8050
+	10200 8050 10600 8050
 Wire Wire Line
-	10200 8550 13000 8550
+	10200 8550 10600 8550
 Connection ~ 8000 4900
 Connection ~ 8400 4900
 Connection ~ 8800 4900
@@ -2914,7 +2775,7 @@ Connection ~ 11400 8550
 Connection ~ 11000 8550
 Connection ~ 10600 8550
 $Comp
-L +4VSW #PWR014
+L agc_kicad_components:+4VSW #PWR014
 U 1 1 581CC3A1
 P 11400 4850
 F 0 "#PWR014" H 11400 4700 50  0001 C CNN
@@ -2928,7 +2789,7 @@ Wire Wire Line
 	11400 4850 11400 4900
 Connection ~ 11400 4900
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 581CC3A9
 P 11400 5450
 F 0 "#PWR015" H 11400 5200 50  0001 C CNN
@@ -2942,7 +2803,7 @@ Wire Wire Line
 	11400 5400 11400 5450
 Connection ~ 11400 5400
 $Comp
-L +4VSW #PWR016
+L agc_kicad_components:+4VSW #PWR016
 U 1 1 581CC3B1
 P 11400 5900
 F 0 "#PWR016" H 11400 5750 50  0001 C CNN
@@ -2956,7 +2817,7 @@ Wire Wire Line
 	11400 5900 11400 5950
 Connection ~ 11400 5950
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 581CC3B9
 P 11400 6500
 F 0 "#PWR017" H 11400 6250 50  0001 C CNN
@@ -2970,7 +2831,7 @@ Wire Wire Line
 	11400 6450 11400 6500
 Connection ~ 11400 6450
 $Comp
-L +4VSW #PWR018
+L agc_kicad_components:+4VSW #PWR018
 U 1 1 581CC3C1
 P 11400 6950
 F 0 "#PWR018" H 11400 6800 50  0001 C CNN
@@ -2984,7 +2845,7 @@ Wire Wire Line
 	11400 6950 11400 7000
 Connection ~ 11400 7000
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 581CC3C9
 P 11400 7550
 F 0 "#PWR019" H 11400 7300 50  0001 C CNN
@@ -2998,7 +2859,7 @@ Wire Wire Line
 	11400 7500 11400 7550
 Connection ~ 11400 7500
 $Comp
-L +4VSW #PWR020
+L agc_kicad_components:+4VSW #PWR020
 U 1 1 581CC3D1
 P 11400 8000
 F 0 "#PWR020" H 11400 7850 50  0001 C CNN
@@ -3011,7 +2872,7 @@ $EndComp
 Wire Wire Line
 	11400 8000 11400 8050
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 581CC3D8
 P 11400 8600
 F 0 "#PWR021" H 11400 8350 50  0001 C CNN
@@ -3024,7 +2885,7 @@ $EndComp
 Wire Wire Line
 	11400 8550 11400 8600
 $Comp
-L 74LVC06 U10068
+L agc_kicad_components:74LVC06 U10068
 U 7 1 58893539
 P 13000 8300
 F 0 "U10068" H 13000 8350 60  0000 C CNN
@@ -3036,4 +2897,596 @@ F 3 "" H 13000 8300 60  0000 C CNN
 $EndComp
 Connection ~ 12600 8050
 Connection ~ 12600 8550
+Wire Wire Line
+	11550 1050 11550 1150
+Wire Wire Line
+	11550 1150 11550 1250
+Wire Wire Line
+	11550 1250 11550 1350
+Wire Wire Line
+	11550 1350 11550 1450
+Wire Wire Line
+	11550 1450 11550 1550
+Wire Wire Line
+	11550 1550 11550 1650
+Wire Wire Line
+	11550 1650 11550 1750
+Wire Wire Line
+	11550 1750 11550 1850
+Wire Wire Line
+	11550 1850 11550 1950
+Wire Wire Line
+	11550 1950 11550 2050
+Wire Wire Line
+	11550 2050 11550 2150
+Wire Wire Line
+	11550 2150 11550 2250
+Wire Wire Line
+	11550 2250 11550 2350
+Wire Wire Line
+	11550 2350 11550 2450
+Wire Wire Line
+	11550 2450 11550 2550
+Wire Wire Line
+	11550 2550 11550 2650
+Wire Wire Line
+	11550 2650 11550 2750
+Wire Wire Line
+	11550 2750 11550 2850
+Wire Wire Line
+	11550 2850 11550 2950
+Wire Wire Line
+	11550 2950 11550 3050
+Wire Wire Line
+	11550 3050 11550 3150
+Wire Wire Line
+	11550 3150 11550 3250
+Wire Wire Line
+	11550 3250 11550 3350
+Wire Wire Line
+	11550 3350 11550 3450
+Wire Wire Line
+	11550 3450 11550 3550
+Wire Wire Line
+	11550 3550 11550 3650
+Wire Wire Line
+	11550 3650 11550 3750
+Wire Wire Line
+	11550 3750 11550 3850
+Wire Wire Line
+	11550 3850 11550 3950
+Wire Wire Line
+	11550 3950 11550 4050
+Wire Wire Line
+	11550 4050 11550 4200
+Wire Wire Line
+	12350 1050 12350 1150
+Wire Wire Line
+	12350 1150 12350 1250
+Wire Wire Line
+	12350 1250 12350 1350
+Wire Wire Line
+	12350 1350 12350 1450
+Wire Wire Line
+	12350 1450 12350 1550
+Wire Wire Line
+	12350 1550 12350 1650
+Wire Wire Line
+	12350 1650 12350 1750
+Wire Wire Line
+	12350 1750 12350 1850
+Wire Wire Line
+	12350 1850 12350 1950
+Wire Wire Line
+	12350 1950 12350 2050
+Wire Wire Line
+	12350 2050 12350 2150
+Wire Wire Line
+	12350 2150 12350 2250
+Wire Wire Line
+	12350 2250 12350 2350
+Wire Wire Line
+	12350 2350 12350 2450
+Wire Wire Line
+	12350 2450 12350 2550
+Wire Wire Line
+	12350 2550 12350 2650
+Wire Wire Line
+	12350 2650 12350 2750
+Wire Wire Line
+	12350 2750 12350 2850
+Wire Wire Line
+	12350 2850 12350 2950
+Wire Wire Line
+	12350 2950 12350 3050
+Wire Wire Line
+	12350 3050 12350 3150
+Wire Wire Line
+	12350 3150 12350 3250
+Wire Wire Line
+	12350 3250 12350 3350
+Wire Wire Line
+	12350 3350 12350 3450
+Wire Wire Line
+	12350 3450 12350 3550
+Wire Wire Line
+	12350 3550 12350 3650
+Wire Wire Line
+	12350 3650 12350 3750
+Wire Wire Line
+	12350 3750 12350 3850
+Wire Wire Line
+	12350 3850 12350 3950
+Wire Wire Line
+	12350 3950 12350 4050
+Wire Wire Line
+	12350 4050 12350 4200
+Wire Wire Line
+	13200 1150 13200 1250
+Wire Wire Line
+	13200 1250 13200 1350
+Wire Wire Line
+	13200 1350 13200 1450
+Wire Wire Line
+	13200 1450 13200 1550
+Wire Wire Line
+	13200 1550 13200 1650
+Wire Wire Line
+	13200 1650 13200 1750
+Wire Wire Line
+	13200 1750 13200 1850
+Wire Wire Line
+	13200 1850 13200 1950
+Wire Wire Line
+	13200 1950 13200 2050
+Wire Wire Line
+	13200 2050 13200 2150
+Wire Wire Line
+	13200 2150 13200 2250
+Wire Wire Line
+	13200 2250 13200 2350
+Wire Wire Line
+	13200 2350 13200 2450
+Wire Wire Line
+	13200 2450 13200 2550
+Wire Wire Line
+	13200 2550 13200 2650
+Wire Wire Line
+	13200 2650 13200 2750
+Wire Wire Line
+	13200 2750 13200 2850
+Wire Wire Line
+	13200 2850 13200 2950
+Wire Wire Line
+	13200 2950 13200 3050
+Wire Wire Line
+	13200 3050 13200 3150
+Wire Wire Line
+	13200 3150 13200 3250
+Wire Wire Line
+	13200 3250 13200 3350
+Wire Wire Line
+	13200 3350 13200 3450
+Wire Wire Line
+	13200 3450 13200 3550
+Wire Wire Line
+	13200 3550 13200 3650
+Wire Wire Line
+	13200 3650 13200 3750
+Wire Wire Line
+	13200 3750 13200 3850
+Wire Wire Line
+	13200 3850 13200 3950
+Wire Wire Line
+	13200 3950 13200 4050
+Wire Wire Line
+	13200 4050 13200 4200
+Wire Wire Line
+	4750 3750 4800 3750
+Wire Wire Line
+	950  4550 950  4600
+Wire Wire Line
+	4250 5300 4250 5350
+Wire Wire Line
+	1700 6050 1750 6050
+Wire Wire Line
+	4750 6050 4800 6050
+Wire Wire Line
+	1700 6500 1750 6500
+Wire Wire Line
+	4750 6500 4800 6500
+Wire Wire Line
+	1700 6700 1750 6700
+Wire Wire Line
+	4750 6700 4800 6700
+Wire Wire Line
+	1700 6900 1750 6900
+Wire Wire Line
+	4750 6900 4800 6900
+Wire Wire Line
+	4750 7100 4800 7100
+Wire Wire Line
+	4750 7450 4800 7450
+Wire Wire Line
+	10350 4050 10350 4200
+Wire Wire Line
+	1700 3750 1750 3750
+Wire Wire Line
+	1700 7100 1750 7100
+Wire Wire Line
+	1700 7450 1750 7450
+Wire Wire Line
+	4250 7750 4250 7800
+Wire Wire Line
+	1200 7750 1200 7800
+Wire Wire Line
+	3900 4550 3900 4600
+Wire Wire Line
+	1200 5300 1200 5350
+Wire Wire Line
+	4200 8700 4200 8850
+Wire Wire Line
+	1150 8600 1150 8750
+Wire Wire Line
+	8000 4900 8400 4900
+Wire Wire Line
+	8400 4900 8800 4900
+Wire Wire Line
+	8800 4900 9200 4900
+Wire Wire Line
+	9200 4900 9600 4900
+Wire Wire Line
+	9600 4900 10000 4900
+Wire Wire Line
+	10000 4900 10400 4900
+Wire Wire Line
+	10400 4900 10800 4900
+Wire Wire Line
+	10800 4900 11200 4900
+Wire Wire Line
+	11200 4900 11400 4900
+Wire Wire Line
+	11600 4900 12000 4900
+Wire Wire Line
+	12000 4900 12400 4900
+Wire Wire Line
+	12400 4900 12800 4900
+Wire Wire Line
+	12800 4900 13200 4900
+Wire Wire Line
+	13200 4900 13600 4900
+Wire Wire Line
+	13600 4900 14000 4900
+Wire Wire Line
+	14000 4900 14400 4900
+Wire Wire Line
+	14400 4900 14800 4900
+Wire Wire Line
+	14800 4900 15200 4900
+Wire Wire Line
+	14800 5400 15200 5400
+Wire Wire Line
+	14400 5400 14800 5400
+Wire Wire Line
+	14000 5400 14400 5400
+Wire Wire Line
+	13600 5400 14000 5400
+Wire Wire Line
+	13200 5400 13600 5400
+Wire Wire Line
+	12800 5400 13200 5400
+Wire Wire Line
+	12400 5400 12800 5400
+Wire Wire Line
+	12000 5400 12400 5400
+Wire Wire Line
+	11600 5400 12000 5400
+Wire Wire Line
+	11200 5400 11400 5400
+Wire Wire Line
+	10800 5400 11200 5400
+Wire Wire Line
+	10400 5400 10800 5400
+Wire Wire Line
+	10000 5400 10400 5400
+Wire Wire Line
+	9600 5400 10000 5400
+Wire Wire Line
+	9200 5400 9600 5400
+Wire Wire Line
+	8800 5400 9200 5400
+Wire Wire Line
+	8400 5400 8800 5400
+Wire Wire Line
+	8000 5400 8400 5400
+Wire Wire Line
+	8000 5950 8400 5950
+Wire Wire Line
+	8400 5950 8800 5950
+Wire Wire Line
+	8800 5950 9200 5950
+Wire Wire Line
+	9200 5950 9600 5950
+Wire Wire Line
+	9600 5950 10000 5950
+Wire Wire Line
+	10000 5950 10400 5950
+Wire Wire Line
+	10400 5950 10800 5950
+Wire Wire Line
+	10800 5950 11200 5950
+Wire Wire Line
+	11200 5950 11400 5950
+Wire Wire Line
+	11600 5950 12000 5950
+Wire Wire Line
+	12000 5950 12400 5950
+Wire Wire Line
+	12400 5950 12800 5950
+Wire Wire Line
+	12800 5950 13200 5950
+Wire Wire Line
+	13200 5950 13600 5950
+Wire Wire Line
+	13600 5950 14000 5950
+Wire Wire Line
+	14000 5950 14400 5950
+Wire Wire Line
+	14400 5950 14800 5950
+Wire Wire Line
+	14800 5950 15200 5950
+Wire Wire Line
+	14800 6450 15200 6450
+Wire Wire Line
+	14400 6450 14800 6450
+Wire Wire Line
+	14000 6450 14400 6450
+Wire Wire Line
+	13600 6450 14000 6450
+Wire Wire Line
+	13200 6450 13600 6450
+Wire Wire Line
+	12800 6450 13200 6450
+Wire Wire Line
+	12400 6450 12800 6450
+Wire Wire Line
+	12000 6450 12400 6450
+Wire Wire Line
+	11600 6450 12000 6450
+Wire Wire Line
+	11200 6450 11400 6450
+Wire Wire Line
+	10800 6450 11200 6450
+Wire Wire Line
+	10400 6450 10800 6450
+Wire Wire Line
+	10000 6450 10400 6450
+Wire Wire Line
+	9600 6450 10000 6450
+Wire Wire Line
+	9200 6450 9600 6450
+Wire Wire Line
+	8800 6450 9200 6450
+Wire Wire Line
+	8400 6450 8800 6450
+Wire Wire Line
+	8000 6450 8400 6450
+Wire Wire Line
+	8000 7000 8400 7000
+Wire Wire Line
+	8400 7000 8800 7000
+Wire Wire Line
+	8800 7000 9200 7000
+Wire Wire Line
+	9200 7000 9600 7000
+Wire Wire Line
+	9600 7000 10000 7000
+Wire Wire Line
+	10000 7000 10400 7000
+Wire Wire Line
+	10400 7000 10800 7000
+Wire Wire Line
+	10800 7000 11200 7000
+Wire Wire Line
+	11200 7000 11400 7000
+Wire Wire Line
+	11600 7000 12000 7000
+Wire Wire Line
+	12000 7000 12400 7000
+Wire Wire Line
+	12400 7000 12800 7000
+Wire Wire Line
+	12800 7000 13200 7000
+Wire Wire Line
+	13200 7000 13600 7000
+Wire Wire Line
+	13600 7000 14000 7000
+Wire Wire Line
+	14000 7000 14400 7000
+Wire Wire Line
+	14400 7000 14800 7000
+Wire Wire Line
+	14800 7000 15200 7000
+Wire Wire Line
+	14800 7500 15200 7500
+Wire Wire Line
+	14400 7500 14800 7500
+Wire Wire Line
+	14000 7500 14400 7500
+Wire Wire Line
+	13600 7500 14000 7500
+Wire Wire Line
+	13200 7500 13600 7500
+Wire Wire Line
+	12800 7500 13200 7500
+Wire Wire Line
+	12400 7500 12800 7500
+Wire Wire Line
+	12000 7500 12400 7500
+Wire Wire Line
+	11600 7500 12000 7500
+Wire Wire Line
+	11200 7500 11400 7500
+Wire Wire Line
+	10800 7500 11200 7500
+Wire Wire Line
+	10400 7500 10800 7500
+Wire Wire Line
+	10000 7500 10400 7500
+Wire Wire Line
+	9600 7500 10000 7500
+Wire Wire Line
+	9200 7500 9600 7500
+Wire Wire Line
+	8800 7500 9200 7500
+Wire Wire Line
+	8400 7500 8800 7500
+Wire Wire Line
+	8000 7500 8400 7500
+Wire Wire Line
+	10600 8050 11000 8050
+Wire Wire Line
+	11000 8050 11400 8050
+Wire Wire Line
+	11400 8050 11800 8050
+Wire Wire Line
+	11800 8050 12200 8050
+Wire Wire Line
+	12200 8050 12600 8050
+Wire Wire Line
+	12200 8550 12600 8550
+Wire Wire Line
+	11800 8550 12200 8550
+Wire Wire Line
+	11400 8550 11800 8550
+Wire Wire Line
+	11000 8550 11400 8550
+Wire Wire Line
+	10600 8550 11000 8550
+Wire Wire Line
+	11400 4900 11600 4900
+Wire Wire Line
+	11400 5400 11600 5400
+Wire Wire Line
+	11400 5950 11600 5950
+Wire Wire Line
+	11400 6450 11600 6450
+Wire Wire Line
+	11400 7000 11600 7000
+Wire Wire Line
+	11400 7500 11600 7500
+Wire Wire Line
+	12600 8050 13000 8050
+Wire Wire Line
+	12600 8550 13000 8550
+$Sheet
+S 4800 1200 1400 7600
+U 568CB571
+F0 "A10_2" 60
+F1 "../common/two_bit_columns.sch" 60
+F2 "A2XG/" I L 4800 1300 60 
+F3 "_SETX_1" I L 4800 3750 60 
+F4 "CLXC" I L 4800 1800 60 
+F5 "CUG" I L 4800 2000 60 
+F6 "_WYHILOG" I L 4800 7300 60 
+F7 "_WL_WYD_1" I L 4800 8250 60 
+F8 "_WYDG_1" I L 4800 7100 60 
+F9 "_XUY1" O R 6200 3350 60 
+F10 "_SUMA1" O R 6200 2950 60 
+F11 "_CI_IN" I L 4800 3550 60 
+F12 "_SUMB1" O R 6200 3150 60 
+F13 "_RUG_1" I L 4800 6050 60 
+F14 "_XUY_IN1" I L 4800 3950 60 
+F15 "_CO_OUT" O R 6200 2850 60 
+F16 "WAG/" I L 4800 2900 60 
+F17 "WALSG/" I L 4800 3000 60 
+F18 "_WALSG_IN1" I L 4800 6300 60 
+F19 "CAG" I L 4800 1400 60 
+F20 "_A1/" O R 6200 1300 60 
+F21 "RAG/" I L 4800 2300 60 
+F22 "_CH1" I L 4800 4200 60 
+F23 "WLG/" I L 4800 3200 60 
+F24 "_L_OP/" I L 4800 4900 60 
+F25 "_L_OP_IN1" I L 4800 5000 60 
+F26 "_CLG" I L 4800 1700 60 
+F27 "_L1/" O R 6200 2100 60 
+F28 "RLG/" I L 4800 2600 60 
+F29 "WQG/" I L 4800 3300 60 
+F30 "CQG" I L 4800 1900 60 
+F31 "RQG/" I L 4800 2700 60 
+F32 "WZG/" I L 4800 3400 60 
+F33 "CZG" I L 4800 2100 60 
+F34 "_Z1/" O R 6200 2500 60 
+F35 "RZG/" I L 4800 2800 60 
+F36 "_Q1/" O R 6200 2300 60 
+F37 "_MDT_1" I L 4800 5450 60 
+F38 "_WL_EXTRA1_1" I L 4800 7450 60 
+F39 "_WL_EXTRA2_1" I L 4800 7650 60 
+F40 "WBG/" I L 4800 3100 60 
+F41 "CBG" I L 4800 1500 60 
+F42 "_B1/" O R 6200 1500 60 
+F43 "_RBG/" I L 4800 5950 60 
+F44 "RCG/" I L 4800 2400 60 
+F45 "_SA_1" I L 4800 5700 60 
+F46 "CGG" I L 4800 1600 60 
+F47 "RGG/" I L 4800 2500 60 
+F48 "_GEM1" O R 6200 3600 60 
+F49 "_LINH_1" I L 4800 5200 60 
+F50 "_G_ED_1" I L 4800 4450 60 
+F51 "_G1" O R 6200 1700 60 
+F52 "_G1/" O R 6200 1800 60 
+F53 "_WLM_1/" I L 4800 7850 60 
+F54 "_WLP_1/" I L 4800 8050 60 
+F55 "_WG3G_1" I L 4800 6700 60 
+F56 "_WG45G_1" I L 4800 6900 60 
+F57 "L2GDG/" I L 4800 2200 60 
+F58 "_L_IN_1" I L 4800 4700 60 
+F59 "_WG12G_1" I L 4800 6500 60 
+F60 "_WL1" O R 6200 4050 60 
+F61 "_WL1/" O R 6200 4150 60 
+F62 "_MWL1" O R 6200 4750 60 
+F63 "_CI_OUT" O R 6200 2750 60 
+F64 "_CO_IN" I L 4800 3650 60 
+F65 "_XUY_IN2" I L 4800 4050 60 
+F66 "_RUG_2" I L 4800 6150 60 
+F67 "_SUMB2" O R 6200 3250 60 
+F68 "_SUMA2" O R 6200 3050 60 
+F69 "_XUY2" O R 6200 3450 60 
+F70 "_WYDG_2" I L 4800 7200 60 
+F71 "_WL_WYD_2" I L 4800 8350 60 
+F72 "_SETX_2" I L 4800 3850 60 
+F73 "_WALSG_IN2" I L 4800 6400 60 
+F74 "_A2/" O R 6200 1400 60 
+F75 "_CH2" I L 4800 4300 60 
+F76 "_LINH_2" I L 4800 5300 60 
+F77 "_WL_EXTRA2_2" I L 4800 7750 60 
+F78 "_WL_EXTRA1_2" I L 4800 7550 60 
+F79 "_MDT_2" I L 4800 5550 60 
+F80 "_Q2/" O R 6200 2400 60 
+F81 "_Z2/" O R 6200 2600 60 
+F82 "_L2/" O R 6200 2200 60 
+F83 "_L_OP_IN2" I L 4800 5100 60 
+F84 "_B2/" O R 6200 1600 60 
+F85 "_SA_2" I L 4800 5800 60 
+F86 "_GEM2" O R 6200 3700 60 
+F87 "_G_ED_2" I L 4800 4550 60 
+F88 "_G2" O R 6200 1900 60 
+F89 "_G2/" O R 6200 2000 60 
+F90 "_WLM_2/" I L 4800 7950 60 
+F91 "_WLP_2/" I L 4800 8150 60 
+F92 "_WG3G_2" I L 4800 6800 60 
+F93 "_WG45G_2" I L 4800 7000 60 
+F94 "_L_IN_2" I L 4800 4800 60 
+F95 "_WG12G_2" I L 4800 6600 60 
+F96 "_WL2" O R 6200 4250 60 
+F97 "_WL2/" O R 6200 4350 60 
+F98 "_MWL2" O R 6200 4850 60 
+F99 "_RL1/" O R 6200 3850 60 
+F100 "_RL2/" O R 6200 3950 60 
+F101 "_RL_OUT_2" O R 6200 4600 60 
+F102 "_RL_OUT_1" O R 6200 4500 60 
+F103 "_WHOMPA" I L 4800 8700 60 
+F104 "_WHOMP_1" I L 4800 8500 60 
+F105 "_WHOMP_2" I L 4800 8600 60 
+$EndSheet
 $EndSCHEMATC
