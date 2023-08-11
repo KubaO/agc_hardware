@@ -1,34 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:agc_kicad_components
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -43,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74HC04 U2103
+L agc_kicad_components:74HC04 U2103
 U 2 1 561ADEF1
 P 3200 3450
 F 0 "U2103" H 3200 3500 60  0000 C CNN
@@ -54,7 +25,7 @@ F 3 "" H 3200 3450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2104
+L agc_kicad_components:74HC02 U2104
 U 1 1 561AE177
 P 6900 1100
 F 0 "U2104" H 6900 1150 60  0000 C CNN
@@ -65,7 +36,7 @@ F 3 "" H 6900 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2103
+L agc_kicad_components:74HC04 U2103
 U 3 1 561AE24E
 P 8300 1100
 F 0 "U2103" H 8300 1150 60  0000 C CNN
@@ -76,7 +47,7 @@ F 3 "" H 8300 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2103
+L agc_kicad_components:74HC04 U2103
 U 4 1 561AE65B
 P 5000 5200
 F 0 "U2103" H 5000 5250 60  0000 C CNN
@@ -88,7 +59,7 @@ F 4 "1" H 5250 5200 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2103
+L agc_kicad_components:74HC04 U2103
 U 5 1 561AE708
 P 6250 5200
 F 0 "U2103" H 6250 5250 60  0000 C CNN
@@ -99,7 +70,7 @@ F 3 "" H 6250 5200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2103
+L agc_kicad_components:74HC04 U2103
 U 6 1 561AE781
 P 7700 5200
 F 0 "U2103" H 7700 5250 60  0000 C CNN
@@ -111,7 +82,7 @@ F 4 "1" H 7950 5200 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2105
+L agc_kicad_components:74HC04 U2105
 U 1 1 561AF486
 P 8200 3850
 F 0 "U2105" H 8200 3900 60  0000 C CNN
@@ -122,7 +93,7 @@ F 3 "" H 8200 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2105
+L agc_kicad_components:74HC04 U2105
 U 2 1 561AF566
 P 9650 3850
 F 0 "U2105" H 9650 3900 60  0000 C CNN
@@ -133,7 +104,7 @@ F 3 "" H 9650 3850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2105
+L agc_kicad_components:74HC04 U2105
 U 3 1 561AF5FF
 P 9650 4350
 F 0 "U2105" H 9650 4400 60  0000 C CNN
@@ -144,7 +115,7 @@ F 3 "" H 9650 4350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2108
+L agc_kicad_components:74HC04 U2108
 U 6 1 561B46BF
 P 5250 4100
 F 0 "U2108" H 5250 4150 60  0000 C CNN
@@ -155,7 +126,7 @@ F 3 "" H 5250 4100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2108
+L agc_kicad_components:74HC04 U2108
 U 1 1 561B437A
 P 9900 2200
 F 0 "U2108" H 9900 2250 60  0000 C CNN
@@ -167,7 +138,7 @@ F 4 "1" H 10150 2200 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2108
+L agc_kicad_components:74HC04 U2108
 U 3 1 561B449B
 P 9900 2800
 F 0 "U2108" H 9900 2850 60  0000 C CNN
@@ -179,7 +150,7 @@ F 4 "1" H 10150 2800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2108
+L agc_kicad_components:74HC04 U2108
 U 4 1 561B4C96
 P 11300 2800
 F 0 "U2108" H 11300 2850 60  0000 C CNN
@@ -190,7 +161,7 @@ F 3 "" H 11300 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2108
+L agc_kicad_components:74HC04 U2108
 U 2 1 561B4DCD
 P 12750 2100
 F 0 "U2108" H 12750 2150 60  0000 C CNN
@@ -201,7 +172,7 @@ F 3 "" H 12750 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2108
+L agc_kicad_components:74HC04 U2108
 U 5 1 561B4E9C
 P 12750 2800
 F 0 "U2108" H 12750 2850 60  0000 C CNN
@@ -212,7 +183,7 @@ F 3 "" H 12750 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2104
+L agc_kicad_components:74HC02 U2104
 U 2 1 561CF871
 P 11300 2100
 F 0 "U2104" H 11300 2150 60  0000 C CNN
@@ -223,7 +194,7 @@ F 3 "" H 11300 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2109
+L agc_kicad_components:74HC02 U2109
 U 1 1 56216AA9
 P 5200 6250
 F 0 "U2109" H 5200 6300 60  0000 C CNN
@@ -234,7 +205,7 @@ F 3 "" H 5200 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2109
+L agc_kicad_components:74HC02 U2109
 U 2 1 56216B74
 P 6500 6250
 F 0 "U2109" H 6500 6300 60  0000 C CNN
@@ -245,7 +216,7 @@ F 3 "" H 6500 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2109
+L agc_kicad_components:74HC02 U2109
 U 3 1 56219E7B
 P 7800 6250
 F 0 "U2109" H 7800 6300 60  0000 C CNN
@@ -256,7 +227,7 @@ F 3 "" H 7800 6250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2109
+L agc_kicad_components:74HC02 U2109
 U 4 1 56219F4C
 P 9100 6250
 F 0 "U2109" H 9100 6300 60  0000 C CNN
@@ -268,7 +239,7 @@ F 4 "1" H 9350 6250 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2105
+L agc_kicad_components:74HC04 U2105
 U 5 1 56241968
 P 12250 6250
 F 0 "U2105" H 12250 6300 60  0000 C CNN
@@ -280,7 +251,7 @@ F 4 "1" H 12500 6250 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U2105
+L agc_kicad_components:74HC04 U2105
 U 6 1 56241E95
 P 7800 6950
 F 0 "U2105" H 7800 7000 60  0000 C CNN
@@ -300,7 +271,7 @@ ovfstb_r3
 Text Label 9800 6250 0    60   ~ 0
 ovfstb_r4
 $Comp
-L 74HC04 U2105
+L agc_kicad_components:74HC04 U2105
 U 4 1 562418C1
 P 10700 6250
 F 0 "U2105" H 10700 6300 60  0000 C CNN
@@ -317,7 +288,7 @@ ovfstb_r6
 Text Label 11900 2100 0    60   ~ 0
 oddset
 $Comp
-L 74HC04 U2110
+L agc_kicad_components:74HC04 U2110
 U 1 1 561CD62B
 P 8600 4800
 F 0 "U2110" H 8600 4850 60  0000 C CNN
@@ -331,7 +302,7 @@ $EndComp
 Text Notes 9000 4550 2    60   ~ 0
 Moved from A24-2
 $Comp
-L 74HC04 U2110
+L agc_kicad_components:74HC04 U2110
 U 2 1 561D58A1
 P 11450 4050
 F 0 "U2110" H 11450 4100 60  0000 C CNN
@@ -386,7 +357,7 @@ Q2A
 Text HLabel 12200 4050 2    60   Output ~ 0
 CLK
 $Comp
-L 74HC04 U2110
+L agc_kicad_components:74HC04 U2110
 U 5 1 56249542
 P 6550 4100
 F 0 "U2110" H 6550 4150 60  0000 C CNN
@@ -414,7 +385,7 @@ F7 "FS/" O R 4050 2250 60
 F8 "FS" O R 4050 2150 60 
 $EndSheet
 $Comp
-L 74HC04 U2103
+L agc_kicad_components:74HC04 U2103
 U 1 1 561ADDE0
 P 5200 2000
 F 0 "U2103" H 5200 2050 60  0000 C CNN
@@ -446,18 +417,18 @@ NoConn ~ 8950 2300
 Wire Wire Line
 	2450 3150 4200 3150
 Wire Wire Line
-	2450 3150 2450 3750
+	2450 3150 2450 3450
 Connection ~ 2450 3450
 Wire Wire Line
 	3800 3450 3850 3450
 Wire Wire Line
-	7500 1100 7700 1100
+	7500 1100 7650 1100
 Wire Wire Line
-	4050 2400 5950 2400
+	4050 2400 4600 2400
 Wire Wire Line
-	6850 5200 7100 5200
+	6850 5200 7000 5200
 Wire Wire Line
-	7000 4800 7000 5450
+	7000 4800 7000 5200
 Wire Wire Line
 	7000 5450 8600 5450
 Connection ~ 7000 5200
@@ -469,13 +440,13 @@ Wire Wire Line
 	7650 750  7650 1100
 Connection ~ 7650 1100
 Wire Wire Line
-	8950 3550 8950 4350
+	8950 3550 8950 3850
 Wire Wire Line
-	10500 2200 10700 2200
+	10500 2200 10550 2200
 Wire Wire Line
 	11900 2100 12150 2100
 Wire Wire Line
-	10500 2800 10700 2800
+	10500 2800 10550 2800
 Wire Wire Line
 	11900 2800 12150 2800
 Wire Wire Line
@@ -491,11 +462,11 @@ Wire Wire Line
 	10550 2600 10600 2600
 Connection ~ 10550 2800
 Wire Wire Line
-	5800 6250 5800 6550
+	5800 6250 5800 6350
 Wire Wire Line
 	5800 6350 5900 6350
 Wire Wire Line
-	7100 6250 7100 6950
+	7100 6250 7100 6350
 Wire Wire Line
 	7100 6350 7200 6350
 Wire Wire Line
@@ -518,7 +489,7 @@ Connection ~ 7100 6750
 Wire Wire Line
 	8400 6950 8500 6950
 Wire Wire Line
-	9700 6250 10100 6250
+	9700 6250 9750 6250
 Wire Wire Line
 	5850 5850 12900 5850
 Wire Wire Line
@@ -532,14 +503,14 @@ Wire Wire Line
 Wire Wire Line
 	9200 4800 9450 4800
 Wire Wire Line
-	10250 3850 10350 3850
+	10250 3850 10300 3850
 Wire Wire Line
-	10700 3550 10700 4550
+	10700 3550 10700 4050
 Connection ~ 10700 4050
 Wire Wire Line
-	10300 4050 10850 4050
+	10300 4050 10700 4050
 Wire Wire Line
-	8300 5200 8600 5200
+	8300 5200 8400 5200
 Wire Wire Line
 	8000 4800 7000 4800
 Wire Wire Line
@@ -585,7 +556,7 @@ Wire Wire Line
 	6150 1000 6300 1000
 Connection ~ 6150 2000
 Wire Wire Line
-	5800 2000 7900 2000
+	5800 2000 6150 2000
 Wire Wire Line
 	7400 2250 4050 2250
 Wire Wire Line
@@ -610,7 +581,7 @@ Wire Wire Line
 Wire Wire Line
 	13400 2800 13350 2800
 Wire Wire Line
-	8800 3850 9050 3850
+	8800 3850 8950 3850
 Connection ~ 8950 3850
 Wire Wire Line
 	10250 4350 10300 4350
@@ -636,7 +607,7 @@ Wire Wire Line
 Wire Wire Line
 	4600 4100 4650 4100
 Wire Wire Line
-	5850 4100 5950 4100
+	5850 4100 5900 4100
 Wire Wire Line
 	5900 4100 5900 4350
 Wire Wire Line
@@ -664,7 +635,7 @@ Wire Wire Line
 Wire Wire Line
 	5850 6150 5900 6150
 $Comp
-L 74LVC06 U2148
+L agc_kicad_components:74LVC06 U2148
 U 1 1 58883669
 P 11300 3550
 F 0 "U2148" H 11450 3700 60  0000 C CNN
@@ -675,7 +646,7 @@ F 3 "" H 11300 3550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC06 U2148
+L agc_kicad_components:74LVC06 U2148
 U 2 1 5888662D
 P 11300 4550
 F 0 "U2148" H 11450 4700 60  0000 C CNN
@@ -685,4 +656,44 @@ F 3 "" H 11300 4550 60  0000 C CNN
 	2    11300 4550
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2450 3450 2450 3750
+Wire Wire Line
+	7000 5200 7100 5200
+Wire Wire Line
+	7000 5200 7000 5450
+Wire Wire Line
+	7650 1100 7700 1100
+Wire Wire Line
+	10550 2200 10700 2200
+Wire Wire Line
+	10550 2800 10700 2800
+Wire Wire Line
+	7100 6350 7100 6750
+Wire Wire Line
+	5800 6350 5800 6550
+Wire Wire Line
+	7100 6750 7100 6950
+Wire Wire Line
+	10700 4050 10700 4550
+Wire Wire Line
+	10700 4050 10850 4050
+Wire Wire Line
+	4600 2400 5950 2400
+Wire Wire Line
+	6150 2000 7900 2000
+Wire Wire Line
+	8400 5200 8600 5200
+Wire Wire Line
+	8950 3850 8950 4350
+Wire Wire Line
+	8950 3850 9050 3850
+Wire Wire Line
+	10300 3850 10350 3850
+Wire Wire Line
+	5900 4100 5950 4100
+Wire Wire Line
+	9750 6250 10100 6250
+Text Notes 22850 15350 2    400  ~ 0
+A02
 $EndSCHEMATC

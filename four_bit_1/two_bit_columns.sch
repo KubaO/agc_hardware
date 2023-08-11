@@ -1,1 +1,0 @@
-../common/two_bit_columns.sch

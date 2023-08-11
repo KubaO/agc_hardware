@@ -1,34 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:agc_kicad_components
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -43,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74HC27 U2102
+L agc_kicad_components:74HC27 U2102
 U 1 1 562522C4
 P 2500 2800
 AR Path="/5621C075/5625169D/562522C4" Ref="U2102"  Part="1" 
@@ -57,7 +28,7 @@ F 3 "" H 2500 2800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U2102
+L agc_kicad_components:74HC27 U2102
 U 2 1 562522CC
 P 2500 3500
 AR Path="/5621C075/5625169D/562522CC" Ref="U2102"  Part="2" 
@@ -72,13 +43,13 @@ F 4 "1" H 2700 3550 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 3250 3100 3750
+	3100 3250 3100 3500
 Wire Wire Line
 	3100 3250 1900 3050
 Wire Wire Line
 	1900 3050 1900 2950
 Wire Wire Line
-	3100 2550 3100 3050
+	3100 2550 3100 2700
 Wire Wire Line
 	3100 3050 1900 3250
 Wire Wire Line
@@ -106,13 +77,13 @@ Wire Wire Line
 Wire Wire Line
 	1900 2550 1900 2650
 Wire Wire Line
-	4450 3250 4450 4450
+	4450 3250 4450 3500
 Wire Wire Line
 	4450 3250 3250 3050
 Wire Wire Line
 	3250 3050 3250 2900
 Wire Wire Line
-	4450 1850 4450 3050
+	4450 1850 4450 2800
 Wire Wire Line
 	4450 3050 3250 3250
 Wire Wire Line
@@ -124,7 +95,7 @@ Wire Wire Line
 	3250 2700 3100 2700
 Connection ~ 3100 2700
 Wire Wire Line
-	1450 2800 1900 2800
+	1450 2800 1750 2800
 Wire Wire Line
 	1750 3500 1900 3500
 Wire Wire Line
@@ -138,7 +109,7 @@ Wire Wire Line
 	1900 4450 4450 4450
 Connection ~ 4450 3500
 $Comp
-L 74HC02 U2101
+L agc_kicad_components:74HC02 U2101
 U 1 1 5625233C
 P 2500 2100
 AR Path="/5621C075/5625169D/5625233C" Ref="U2101"  Part="1" 
@@ -152,7 +123,7 @@ F 3 "" H 2500 2100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2101
+L agc_kicad_components:74HC02 U2101
 U 4 1 56252343
 P 2500 4200
 AR Path="/5621C075/5625169D/56252343" Ref="U2101"  Part="4" 
@@ -166,7 +137,7 @@ F 3 "" H 2500 4200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2101
+L agc_kicad_components:74HC02 U2101
 U 2 1 5625234A
 P 3850 2800
 AR Path="/5621C075/5625169D/5625234A" Ref="U2101"  Part="2" 
@@ -181,7 +152,7 @@ F 4 "1" H 4050 2850 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U2101
+L agc_kicad_components:74HC02 U2101
 U 3 1 56252351
 P 3850 3500
 AR Path="/5621C075/5625169D/56252351" Ref="U2101"  Part="3" 
@@ -227,4 +198,20 @@ Wire Wire Line
 Connection ~ 3100 3750
 Connection ~ 3100 2100
 Connection ~ 3100 4200
+Wire Wire Line
+	3100 3500 3100 3600
+Wire Wire Line
+	3100 2800 3100 3050
+Wire Wire Line
+	3100 3600 3100 3750
+Wire Wire Line
+	3100 2700 3100 2800
+Wire Wire Line
+	4450 2800 4450 3050
+Wire Wire Line
+	4450 3500 4450 4450
+Wire Wire Line
+	1750 2800 1900 2800
+Text Notes 11150 7100 2    400  ~ 0
+A02
 $EndSCHEMATC

@@ -1,34 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agc_kicad_components
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -314,14 +285,14 @@ MAMU
 Wire Wire Line
 	3450 4600 3350 4600
 $Comp
-L CONN_02X32 P1
+L Connector_Generic:Conn_02x32_Counter_Clockwise P1
 U 1 1 588922C0
-P 7750 2400
-F 0 "P1" H 7750 4050 50  0000 C CNN
-F 1 "CONN_02X32" V 7750 2400 50  0000 C CNN
-F 2 "" H 7750 2000 60  0000 C CNN
-F 3 "" H 7750 2000 60  0000 C CNN
-	1    7750 2400
+P 7700 2350
+F 0 "P1" H 7700 4000 50  0000 C CNN
+F 1 "CONN_02X32" V 7700 2350 50  0000 C CNN
+F 2 "" H 7700 1950 60  0000 C CNN
+F 3 "" H 7700 1950 60  0000 C CNN
+	1    7700 2350
 	1    0    0    -1  
 $EndComp
 Text GLabel 7400 950  0    60   Output ~ 0
@@ -537,7 +508,7 @@ MAMU
 Wire Wire Line
 	7400 2950 7500 2950
 $Comp
-L +4VSW #PWR01
+L agc_kicad_components:+4VSW #PWR01
 U 1 1 588989DA
 P 6850 800
 F 0 "#PWR01" H 6850 650 50  0001 C CNN
@@ -552,7 +523,7 @@ Wire Wire Line
 Wire Wire Line
 	6850 850  7500 850 
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 588990E2
 P 7400 4050
 F 0 "#PWR02" H 7400 3800 50  0001 C CNN
@@ -563,7 +534,7 @@ F 3 "" H 7400 4050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7400 3050 7400 4050
+	7400 3050 7400 3150
 Wire Wire Line
 	7400 3950 7500 3950
 Wire Wire Line
@@ -594,7 +565,7 @@ Wire Wire Line
 	7400 3050 7500 3050
 Connection ~ 7400 3150
 $Comp
-L 74HC04 U77001
+L agc_kicad_components:74HC04 U77001
 U 7 1 588AB574
 P 4600 4750
 F 0 "U77001" H 4600 4800 60  0000 C CNN
@@ -605,7 +576,7 @@ F 3 "" H 4600 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U77002
+L agc_kicad_components:74HC04 U77002
 U 7 1 588AB850
 P 5000 4750
 F 0 "U77002" H 5000 4800 60  0000 C CNN
@@ -616,7 +587,7 @@ F 3 "" H 5000 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC4002 U77003
+L agc_kicad_components:74HC4002 U77003
 U 3 1 588ACABD
 P 5400 4750
 F 0 "U77003" H 5400 4800 60  0000 C CNN
@@ -627,7 +598,7 @@ F 3 "" H 5400 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74LVC07 U77004
+L agc_kicad_components:74LVC07 U77004
 U 7 1 588AD529
 P 5800 4750
 F 0 "U77004" H 5800 4800 60  0000 C CNN
@@ -638,7 +609,7 @@ F 3 "" H 5800 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U77005
+L agc_kicad_components:74HC02 U77005
 U 5 1 588AE614
 P 6200 4750
 F 0 "U77005" H 6200 4800 60  0000 C CNN
@@ -649,7 +620,7 @@ F 3 "" H 6200 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U77006
+L agc_kicad_components:74HC02 U77006
 U 5 1 588AE90A
 P 6600 4750
 F 0 "U77006" H 6600 4800 60  0000 C CNN
@@ -660,7 +631,7 @@ F 3 "" H 6600 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U77007
+L agc_kicad_components:74HC02 U77007
 U 5 1 588B10C7
 P 7000 4750
 F 0 "U77007" H 7000 4800 60  0000 C CNN
@@ -671,7 +642,7 @@ F 3 "" H 7000 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U77008
+L agc_kicad_components:74HC04 U77008
 U 7 1 588B889E
 P 7400 4750
 F 0 "U77008" H 7400 4800 60  0000 C CNN
@@ -682,7 +653,7 @@ F 3 "" H 7400 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U77009
+L agc_kicad_components:74HC02 U77009
 U 5 1 588B9857
 P 7800 4750
 F 0 "U77009" H 7800 4800 60  0000 C CNN
@@ -693,7 +664,7 @@ F 3 "" H 7800 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U77010
+L agc_kicad_components:74HC02 U77010
 U 5 1 588B985D
 P 8200 4750
 F 0 "U77010" H 8200 4800 60  0000 C CNN
@@ -704,7 +675,7 @@ F 3 "" H 8200 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U77011
+L agc_kicad_components:74HC02 U77011
 U 5 1 588BE30F
 P 5600 5750
 F 0 "U77011" H 5600 5800 60  0000 C CNN
@@ -715,7 +686,7 @@ F 3 "" H 5600 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U77012
+L agc_kicad_components:74HC04 U77012
 U 7 1 588BE315
 P 6000 5750
 F 0 "U77012" H 6000 5800 60  0000 C CNN
@@ -726,7 +697,7 @@ F 3 "" H 6000 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U77013
+L agc_kicad_components:74HC27 U77013
 U 4 1 588BE97E
 P 6400 5750
 F 0 "U77013" H 6400 5800 60  0000 C CNN
@@ -737,7 +708,7 @@ F 3 "" H 6400 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U77014
+L agc_kicad_components:74HC27 U77014
 U 4 1 588BEB33
 P 6800 5750
 F 0 "U77014" H 6800 5800 60  0000 C CNN
@@ -748,7 +719,7 @@ F 3 "" H 6800 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U77015
+L agc_kicad_components:74HC27 U77015
 U 4 1 588BEBFD
 P 7200 5750
 F 0 "U77015" H 7200 5800 60  0000 C CNN
@@ -759,7 +730,7 @@ F 3 "" H 7200 5750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4600 4500 8200 4500
+	4600 4500 5000 4500
 Connection ~ 5000 4500
 Connection ~ 5400 4500
 Connection ~ 5800 4500
@@ -769,7 +740,7 @@ Connection ~ 7400 4500
 Connection ~ 7000 4500
 Connection ~ 6600 4500
 Wire Wire Line
-	4600 5000 8200 5000
+	4600 5000 5000 5000
 Connection ~ 7800 5000
 Connection ~ 7400 5000
 Connection ~ 7000 5000
@@ -779,9 +750,9 @@ Connection ~ 5800 5000
 Connection ~ 5400 5000
 Connection ~ 5000 5000
 Wire Wire Line
-	5600 5500 7200 5500
+	5600 5500 6000 5500
 Wire Wire Line
-	5600 6000 7200 6000
+	5600 6000 6000 6000
 Connection ~ 6000 5500
 Connection ~ 6400 5500
 Connection ~ 6800 5500
@@ -789,7 +760,7 @@ Connection ~ 6800 6000
 Connection ~ 6400 6000
 Connection ~ 6000 6000
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 588BFC04
 P 6400 6050
 F 0 "#PWR?" H 6400 5800 50  0001 C CNN
@@ -802,7 +773,7 @@ $EndComp
 Wire Wire Line
 	6400 6000 6400 6050
 $Comp
-L +4VSW #PWR?
+L agc_kicad_components:+4VSW #PWR?
 U 1 1 588C16EE
 P 6400 5450
 F 0 "#PWR?" H 6400 5300 50  0001 C CNN
@@ -815,7 +786,7 @@ $EndComp
 Wire Wire Line
 	6400 5450 6400 5500
 $Comp
-L GND #PWR?
+L power:GND #PWR?
 U 1 1 588C2023
 P 6400 5050
 F 0 "#PWR?" H 6400 4800 50  0001 C CNN
@@ -829,7 +800,7 @@ Wire Wire Line
 	6400 5050 6400 5000
 Connection ~ 6400 5000
 $Comp
-L +4VSW #PWR?
+L agc_kicad_components:+4VSW #PWR?
 U 1 1 588C22E1
 P 6400 4450
 F 0 "#PWR?" H 6400 4300 50  0001 C CNN
@@ -842,4 +813,95 @@ $EndComp
 Wire Wire Line
 	6400 4450 6400 4500
 Connection ~ 6400 4500
+Wire Wire Line
+	7400 3950 7400 4050
+Wire Wire Line
+	7400 3850 7400 3950
+Wire Wire Line
+	7400 3750 7400 3850
+Wire Wire Line
+	7400 3650 7400 3750
+Wire Wire Line
+	7400 3550 7400 3650
+Wire Wire Line
+	7400 3450 7400 3550
+Wire Wire Line
+	7400 3350 7400 3450
+Wire Wire Line
+	7400 3250 7400 3350
+Wire Wire Line
+	7400 3150 7400 3250
+Wire Wire Line
+	5000 4500 5400 4500
+Wire Wire Line
+	5400 4500 5800 4500
+Wire Wire Line
+	5800 4500 6200 4500
+Wire Wire Line
+	6200 4500 6400 4500
+Wire Wire Line
+	7800 4500 8200 4500
+Wire Wire Line
+	7400 4500 7800 4500
+Wire Wire Line
+	7000 4500 7400 4500
+Wire Wire Line
+	6600 4500 7000 4500
+Wire Wire Line
+	7800 5000 8200 5000
+Wire Wire Line
+	7400 5000 7800 5000
+Wire Wire Line
+	7000 5000 7400 5000
+Wire Wire Line
+	6600 5000 7000 5000
+Wire Wire Line
+	6200 5000 6400 5000
+Wire Wire Line
+	5800 5000 6200 5000
+Wire Wire Line
+	5400 5000 5800 5000
+Wire Wire Line
+	5000 5000 5400 5000
+Wire Wire Line
+	6000 5500 6400 5500
+Wire Wire Line
+	6400 5500 6800 5500
+Wire Wire Line
+	6800 5500 7200 5500
+Wire Wire Line
+	6800 6000 7200 6000
+Wire Wire Line
+	6400 6000 6800 6000
+Wire Wire Line
+	6000 6000 6400 6000
+Wire Wire Line
+	6400 5000 6600 5000
+Wire Wire Line
+	6400 4500 6600 4500
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 64E49E57
+P 6850 850
+F 0 "#FLG?" H 6850 925 50  0001 C CNN
+F 1 "PWR_FLAG" V 6850 977 50  0001 L CNN
+F 2 "" H 6850 850 50  0001 C CNN
+F 3 "~" H 6850 850 50  0001 C CNN
+	1    6850 850 
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6850 850 
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 64E4A1BB
+P 7400 3950
+F 0 "#FLG?" H 7400 4025 50  0001 C CNN
+F 1 "PWR_FLAG" V 7400 4077 50  0001 L CNN
+F 2 "" H 7400 3950 50  0001 C CNN
+F 3 "~" H 7400 3950 50  0001 C CNN
+	1    7400 3950
+	0    -1   -1   0   
+$EndComp
+Text Notes 11150 7050 2    400  ~ 0
+A77
 $EndSCHEMATC

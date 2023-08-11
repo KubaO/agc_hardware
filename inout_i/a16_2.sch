@@ -1,35 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:agc_kicad_components
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:inout_i-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -44,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74HC02 U16031
+L agc_kicad_components:74HC02 U16031
 U 1 1 57218869
 P 4850 3200
 AR Path="/57218869" Ref="U16031"  Part="1" 
@@ -59,7 +29,7 @@ $EndComp
 Text HLabel 4050 3100 0    60   Input ~ 0
 CHWL01/
 $Comp
-L 74HC02 U16031
+L agc_kicad_components:74HC02 U16031
 U 2 1 57218903
 P 6200 3300
 AR Path="/57218903" Ref="U16031"  Part="2" 
@@ -73,7 +43,7 @@ F 4 "1" H 6450 3300 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16031
+L agc_kicad_components:74HC02 U16031
 U 3 1 57218A0F
 P 6200 4000
 AR Path="/57218A0F" Ref="U16031"  Part="3" 
@@ -86,7 +56,7 @@ F 3 "" H 6200 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16031
+L agc_kicad_components:74HC02 U16031
 U 4 1 57218E5F
 P 7650 3400
 AR Path="/57218E5F" Ref="U16031"  Part="4" 
@@ -99,7 +69,7 @@ F 3 "" H 7650 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16030
+L agc_kicad_components:74HC04 U16030
 U 2 1 57219A72
 P 7650 4000
 AR Path="/57219A72" Ref="U16030"  Part="2" 
@@ -114,7 +84,7 @@ $EndComp
 Text HLabel 8300 4000 2    60   Output ~ 0
 ZOPCDU
 $Comp
-L 74HC02 U16033
+L agc_kicad_components:74HC02 U16033
 U 1 1 5721A737
 P 11100 3200
 AR Path="/5721A737" Ref="U16033"  Part="1" 
@@ -127,7 +97,7 @@ F 3 "" H 11100 3200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16033
+L agc_kicad_components:74HC02 U16033
 U 2 1 5721A740
 P 12450 3300
 AR Path="/5721A740" Ref="U16033"  Part="2" 
@@ -141,7 +111,7 @@ F 4 "1" H 12700 3300 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16033
+L agc_kicad_components:74HC02 U16033
 U 3 1 5721A747
 P 12450 4000
 AR Path="/5721A747" Ref="U16033"  Part="3" 
@@ -154,7 +124,7 @@ F 3 "" H 12450 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16033
+L agc_kicad_components:74HC02 U16033
 U 4 1 5721A754
 P 13900 3400
 AR Path="/5721A754" Ref="U16033"  Part="4" 
@@ -167,7 +137,7 @@ F 3 "" H 13900 3400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16030
+L agc_kicad_components:74HC04 U16030
 U 3 1 5721A75E
 P 13900 4000
 AR Path="/5721A75E" Ref="U16030"  Part="3" 
@@ -182,7 +152,7 @@ $EndComp
 Text HLabel 14550 4000 2    60   Output ~ 0
 ISSWAR
 $Comp
-L 74HC27 U16032
+L agc_kicad_components:74HC27 U16032
 U 1 1 57221CB6
 P 15200 3400
 AR Path="/57221CB6" Ref="U16032"  Part="1" 
@@ -197,7 +167,7 @@ $EndComp
 Text HLabel 14550 3550 0    60   Input ~ 0
 CH1501
 $Comp
-L 74LVC07 U16021
+L agc_kicad_components:74LVC07 U16021
 U 3 1 572236A8
 P 16250 3400
 AR Path="/572236A8" Ref="U16021"  Part="3" 
@@ -212,7 +182,7 @@ $EndComp
 Text HLabel 16750 3400 2    60   Output ~ 0
 CHOR01/
 $Comp
-L 74HC02 U16034
+L agc_kicad_components:74HC02 U16034
 U 1 1 57226D6A
 P 4850 4700
 AR Path="/57226D6A" Ref="U16034"  Part="1" 
@@ -227,7 +197,7 @@ $EndComp
 Text HLabel 4050 4600 0    60   Input ~ 0
 CHWL02/
 $Comp
-L 74HC02 U16034
+L agc_kicad_components:74HC02 U16034
 U 2 1 57226D73
 P 6200 4800
 AR Path="/57226D73" Ref="U16034"  Part="2" 
@@ -241,7 +211,7 @@ F 4 "1" H 6450 4800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16034
+L agc_kicad_components:74HC02 U16034
 U 3 1 57226D7A
 P 6200 5500
 AR Path="/57226D7A" Ref="U16034"  Part="3" 
@@ -254,7 +224,7 @@ F 3 "" H 6200 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16034
+L agc_kicad_components:74HC02 U16034
 U 4 1 57226D87
 P 7650 4900
 AR Path="/57226D87" Ref="U16034"  Part="4" 
@@ -267,7 +237,7 @@ F 3 "" H 7650 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16030
+L agc_kicad_components:74HC04 U16030
 U 4 1 57226D91
 P 7650 5500
 AR Path="/57226D91" Ref="U16030"  Part="4" 
@@ -282,7 +252,7 @@ $EndComp
 Text HLabel 8300 5500 2    60   Output ~ 0
 ENEROP
 $Comp
-L 74HC02 U16035
+L agc_kicad_components:74HC02 U16035
 U 1 1 57226D99
 P 11100 4700
 AR Path="/57226D99" Ref="U16035"  Part="1" 
@@ -295,7 +265,7 @@ F 3 "" H 11100 4700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16035
+L agc_kicad_components:74HC02 U16035
 U 2 1 57226DA1
 P 12450 4800
 AR Path="/57226DA1" Ref="U16035"  Part="2" 
@@ -309,7 +279,7 @@ F 4 "1" H 12700 4800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16035
+L agc_kicad_components:74HC02 U16035
 U 3 1 57226DA8
 P 12450 5500
 AR Path="/57226DA8" Ref="U16035"  Part="3" 
@@ -322,7 +292,7 @@ F 3 "" H 12450 5500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16035
+L agc_kicad_components:74HC02 U16035
 U 4 1 57226DB5
 P 13900 4900
 AR Path="/57226DB5" Ref="U16035"  Part="4" 
@@ -335,7 +305,7 @@ F 3 "" H 13900 4900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16030
+L agc_kicad_components:74HC04 U16030
 U 5 1 57226DBF
 P 13900 5500
 AR Path="/57226DBF" Ref="U16030"  Part="5" 
@@ -350,7 +320,7 @@ $EndComp
 Text HLabel 14550 5500 2    60   Output ~ 0
 COMACT
 $Comp
-L 74HC27 U16032
+L agc_kicad_components:74HC27 U16032
 U 2 1 57226DD0
 P 15200 4900
 AR Path="/57226DD0" Ref="U16032"  Part="2" 
@@ -365,7 +335,7 @@ $EndComp
 Text HLabel 14550 5050 0    60   Input ~ 0
 CH1502
 $Comp
-L 74LVC07 U16021
+L agc_kicad_components:74LVC07 U16021
 U 4 1 57226DD9
 P 16250 4900
 AR Path="/57226DD9" Ref="U16021"  Part="4" 
@@ -380,7 +350,7 @@ $EndComp
 Text HLabel 16750 4900 2    60   Output ~ 0
 CHOR02/
 $Comp
-L 74HC02 U16036
+L agc_kicad_components:74HC02 U16036
 U 1 1 572333E4
 P 4850 6200
 AR Path="/572333E4" Ref="U16036"  Part="1" 
@@ -395,7 +365,7 @@ $EndComp
 Text HLabel 4050 6100 0    60   Input ~ 0
 CHWL03/
 $Comp
-L 74HC02 U16036
+L agc_kicad_components:74HC02 U16036
 U 2 1 572333EC
 P 6200 6300
 AR Path="/572333EC" Ref="U16036"  Part="2" 
@@ -409,7 +379,7 @@ F 4 "1" H 6450 6300 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16036
+L agc_kicad_components:74HC02 U16036
 U 3 1 572333F2
 P 6200 7000
 AR Path="/572333F2" Ref="U16036"  Part="3" 
@@ -422,7 +392,7 @@ F 3 "" H 6200 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16036
+L agc_kicad_components:74HC02 U16036
 U 4 1 572333F8
 P 7650 6400
 AR Path="/572333F8" Ref="U16036"  Part="4" 
@@ -435,7 +405,7 @@ F 3 "" H 7650 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16030
+L agc_kicad_components:74HC04 U16030
 U 6 1 572333FE
 P 7650 7000
 AR Path="/572333FE" Ref="U16030"  Part="6" 
@@ -450,7 +420,7 @@ $EndComp
 Text HLabel 8300 7000 2    60   Output ~ 0
 STARON
 $Comp
-L 74HC02 U16037
+L agc_kicad_components:74HC02 U16037
 U 1 1 57233405
 P 11100 6200
 AR Path="/57233405" Ref="U16037"  Part="1" 
@@ -463,7 +433,7 @@ F 3 "" H 11100 6200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16037
+L agc_kicad_components:74HC02 U16037
 U 2 1 5723340C
 P 12450 6300
 AR Path="/5723340C" Ref="U16037"  Part="2" 
@@ -477,7 +447,7 @@ F 4 "1" H 12700 6300 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16037
+L agc_kicad_components:74HC02 U16037
 U 3 1 57233412
 P 12450 7000
 AR Path="/57233412" Ref="U16037"  Part="3" 
@@ -490,7 +460,7 @@ F 3 "" H 12450 7000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16037
+L agc_kicad_components:74HC02 U16037
 U 4 1 57233418
 P 13900 6400
 AR Path="/57233418" Ref="U16037"  Part="4" 
@@ -503,7 +473,7 @@ F 3 "" H 13900 6400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16038
+L agc_kicad_components:74HC04 U16038
 U 1 1 5723341E
 P 13900 7000
 AR Path="/5723341E" Ref="U16038"  Part="1" 
@@ -518,7 +488,7 @@ $EndComp
 Text HLabel 14550 7000 2    60   Output ~ 0
 UPLACT
 $Comp
-L 74HC27 U16032
+L agc_kicad_components:74HC27 U16032
 U 3 1 57233425
 P 15200 6400
 AR Path="/57233425" Ref="U16032"  Part="3" 
@@ -533,7 +503,7 @@ $EndComp
 Text HLabel 14550 6550 0    60   Input ~ 0
 CH1503
 $Comp
-L 74LVC07 U16021
+L agc_kicad_components:74LVC07 U16021
 U 5 1 5723342C
 P 16250 6400
 AR Path="/5723342C" Ref="U16021"  Part="5" 
@@ -548,7 +518,7 @@ $EndComp
 Text HLabel 16750 6400 2    60   Output ~ 0
 CHOR03/
 $Comp
-L 74HC02 U16039
+L agc_kicad_components:74HC02 U16039
 U 1 1 5723DE3E
 P 4850 7700
 AR Path="/5723DE3E" Ref="U16039"  Part="1" 
@@ -563,7 +533,7 @@ $EndComp
 Text HLabel 4050 7600 0    60   Input ~ 0
 CHWL04/
 $Comp
-L 74HC02 U16039
+L agc_kicad_components:74HC02 U16039
 U 2 1 5723DE46
 P 6200 7800
 AR Path="/5723DE46" Ref="U16039"  Part="2" 
@@ -577,7 +547,7 @@ F 4 "1" H 6450 7800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16039
+L agc_kicad_components:74HC02 U16039
 U 3 1 5723DE4C
 P 6200 8500
 AR Path="/5723DE4C" Ref="U16039"  Part="3" 
@@ -590,7 +560,7 @@ F 3 "" H 6200 8500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16039
+L agc_kicad_components:74HC02 U16039
 U 4 1 5723DE52
 P 7650 7900
 AR Path="/5723DE52" Ref="U16039"  Part="4" 
@@ -603,7 +573,7 @@ F 3 "" H 7650 7900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16038
+L agc_kicad_components:74HC04 U16038
 U 2 1 5723DE58
 P 7650 8500
 AR Path="/5723DE58" Ref="U16038"  Part="2" 
@@ -618,7 +588,7 @@ $EndComp
 Text HLabel 8300 8500 2    60   Output ~ 0
 COARSE
 $Comp
-L 74HC02 U16040
+L agc_kicad_components:74HC02 U16040
 U 1 1 5723DE5F
 P 11100 7700
 AR Path="/5723DE5F" Ref="U16040"  Part="1" 
@@ -631,7 +601,7 @@ F 3 "" H 11100 7700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16040
+L agc_kicad_components:74HC02 U16040
 U 2 1 5723DE66
 P 12450 7800
 AR Path="/5723DE66" Ref="U16040"  Part="2" 
@@ -645,7 +615,7 @@ F 4 "1" H 12700 7800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16040
+L agc_kicad_components:74HC02 U16040
 U 3 1 5723DE6C
 P 12450 8500
 AR Path="/5723DE6C" Ref="U16040"  Part="3" 
@@ -658,7 +628,7 @@ F 3 "" H 12450 8500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16040
+L agc_kicad_components:74HC02 U16040
 U 4 1 5723DE72
 P 13900 7900
 AR Path="/5723DE72" Ref="U16040"  Part="4" 
@@ -671,7 +641,7 @@ F 3 "" H 13900 7900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16038
+L agc_kicad_components:74HC04 U16038
 U 3 1 5723DE78
 P 13900 8500
 AR Path="/5723DE78" Ref="U16038"  Part="3" 
@@ -686,7 +656,7 @@ $EndComp
 Text HLabel 14550 8500 2    60   Output ~ 0
 TMPOUT
 $Comp
-L 74HC27 U16041
+L agc_kicad_components:74HC27 U16041
 U 1 1 5723DE7F
 P 15200 7900
 AR Path="/5723DE7F" Ref="U16041"  Part="1" 
@@ -701,7 +671,7 @@ $EndComp
 Text HLabel 14550 8050 0    60   Input ~ 0
 CH1504
 $Comp
-L 74LVC07 U16021
+L agc_kicad_components:74LVC07 U16021
 U 6 1 5723DE86
 P 16250 7900
 AR Path="/5723DE86" Ref="U16021"  Part="6" 
@@ -716,7 +686,7 @@ $EndComp
 Text HLabel 16750 7900 2    60   Output ~ 0
 CHOR04/
 $Comp
-L 74HC02 U16042
+L agc_kicad_components:74HC02 U16042
 U 1 1 5724F7EC
 P 4850 9200
 AR Path="/5724F7EC" Ref="U16042"  Part="1" 
@@ -731,7 +701,7 @@ $EndComp
 Text HLabel 4050 9100 0    60   Input ~ 0
 CHWL05/
 $Comp
-L 74HC02 U16042
+L agc_kicad_components:74HC02 U16042
 U 2 1 5724F7F4
 P 6200 9300
 AR Path="/5724F7F4" Ref="U16042"  Part="2" 
@@ -745,7 +715,7 @@ F 4 "1" H 6450 9300 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16042
+L agc_kicad_components:74HC02 U16042
 U 3 1 5724F7FA
 P 6200 10000
 AR Path="/5724F7FA" Ref="U16042"  Part="3" 
@@ -758,7 +728,7 @@ F 3 "" H 6200 10000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16042
+L agc_kicad_components:74HC02 U16042
 U 4 1 5724F800
 P 7650 9400
 AR Path="/5724F800" Ref="U16042"  Part="4" 
@@ -771,7 +741,7 @@ F 3 "" H 7650 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16038
+L agc_kicad_components:74HC04 U16038
 U 4 1 5724F806
 P 7650 10000
 AR Path="/5724F806" Ref="U16038"  Part="4" 
@@ -786,7 +756,7 @@ $EndComp
 Text HLabel 8300 10000 2    60   Output ~ 0
 ZIMCDU
 $Comp
-L 74HC02 U16043
+L agc_kicad_components:74HC02 U16043
 U 1 1 5724F80D
 P 11100 9200
 AR Path="/5724F80D" Ref="U16043"  Part="1" 
@@ -799,7 +769,7 @@ F 3 "" H 11100 9200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16043
+L agc_kicad_components:74HC02 U16043
 U 2 1 5724F814
 P 12450 9300
 AR Path="/5724F814" Ref="U16043"  Part="2" 
@@ -813,7 +783,7 @@ F 4 "1" H 12700 9300 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16043
+L agc_kicad_components:74HC02 U16043
 U 3 1 5724F81A
 P 12450 10000
 AR Path="/5724F81A" Ref="U16043"  Part="3" 
@@ -826,7 +796,7 @@ F 3 "" H 12450 10000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16043
+L agc_kicad_components:74HC02 U16043
 U 4 1 5724F820
 P 13900 9400
 AR Path="/5724F820" Ref="U16043"  Part="4" 
@@ -839,7 +809,7 @@ F 3 "" H 13900 9400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16038
+L agc_kicad_components:74HC04 U16038
 U 5 1 5724F826
 P 7650 11500
 AR Path="/5724F826" Ref="U16038"  Part="5" 
@@ -854,7 +824,7 @@ $EndComp
 Text HLabel 14900 9950 2    60   Output ~ 0
 KYRLS
 $Comp
-L 74HC27 U16041
+L agc_kicad_components:74HC27 U16041
 U 2 1 5724F82D
 P 15200 9400
 AR Path="/5724F82D" Ref="U16041"  Part="2" 
@@ -869,7 +839,7 @@ $EndComp
 Text HLabel 14550 9550 0    60   Input ~ 0
 CH0705
 $Comp
-L 74LVC07 U16044
+L agc_kicad_components:74LVC07 U16044
 U 1 1 5724F834
 P 16250 9400
 AR Path="/5724F834" Ref="U16044"  Part="1" 
@@ -884,7 +854,7 @@ $EndComp
 Text HLabel 16750 9400 2    60   Output ~ 0
 CHOR05/
 $Comp
-L 74HC02 U16045
+L agc_kicad_components:74HC02 U16045
 U 1 1 572722B4
 P 4850 10700
 AR Path="/572722B4" Ref="U16045"  Part="1" 
@@ -899,7 +869,7 @@ $EndComp
 Text HLabel 4050 10600 0    60   Input ~ 0
 CHWL06/
 $Comp
-L 74HC02 U16045
+L agc_kicad_components:74HC02 U16045
 U 2 1 572722BC
 P 6200 10800
 AR Path="/572722BC" Ref="U16045"  Part="2" 
@@ -913,7 +883,7 @@ F 4 "1" H 6450 10800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16045
+L agc_kicad_components:74HC02 U16045
 U 3 1 572722C2
 P 6200 11500
 AR Path="/572722C2" Ref="U16045"  Part="3" 
@@ -926,7 +896,7 @@ F 3 "" H 6200 11500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16045
+L agc_kicad_components:74HC02 U16045
 U 4 1 572722C8
 P 7650 10900
 AR Path="/572722C8" Ref="U16045"  Part="4" 
@@ -941,7 +911,7 @@ $EndComp
 Text HLabel 8300 11500 2    60   Output ~ 0
 ENERIM
 $Comp
-L 74HC02 U16046
+L agc_kicad_components:74HC02 U16046
 U 1 1 572722D5
 P 11100 10700
 AR Path="/572722D5" Ref="U16046"  Part="1" 
@@ -954,7 +924,7 @@ F 3 "" H 11100 10700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16046
+L agc_kicad_components:74HC02 U16046
 U 2 1 572722DC
 P 12450 10800
 AR Path="/572722DC" Ref="U16046"  Part="2" 
@@ -968,7 +938,7 @@ F 4 "1" H 12700 10800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16046
+L agc_kicad_components:74HC02 U16046
 U 3 1 572722E2
 P 12450 11500
 AR Path="/572722E2" Ref="U16046"  Part="3" 
@@ -981,7 +951,7 @@ F 3 "" H 12450 11500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16046
+L agc_kicad_components:74HC02 U16046
 U 4 1 572722E8
 P 13900 10900
 AR Path="/572722E8" Ref="U16046"  Part="4" 
@@ -996,7 +966,7 @@ $EndComp
 Text HLabel 14900 11450 2    60   Output ~ 0
 VNFLSH
 $Comp
-L 74HC27 U16041
+L agc_kicad_components:74HC27 U16041
 U 3 1 572722F5
 P 15200 10900
 AR Path="/572722F5" Ref="U16041"  Part="3" 
@@ -1011,7 +981,7 @@ $EndComp
 Text HLabel 14550 11050 0    60   Input ~ 0
 CH0706
 $Comp
-L 74LVC07 U16044
+L agc_kicad_components:74LVC07 U16044
 U 2 1 572722FC
 P 16250 10900
 AR Path="/572722FC" Ref="U16044"  Part="2" 
@@ -1026,7 +996,7 @@ $EndComp
 Text HLabel 16750 10900 2    60   Output ~ 0
 CHOR06/
 $Comp
-L 74HC02 U16047
+L agc_kicad_components:74HC02 U16047
 U 1 1 57295D68
 P 14250 9950
 AR Path="/57295D68" Ref="U16047"  Part="1" 
@@ -1041,7 +1011,7 @@ $EndComp
 Text HLabel 13600 10050 0    60   Input ~ 0
 FLASH
 $Comp
-L 74HC02 U16047
+L agc_kicad_components:74HC02 U16047
 U 2 1 5729E275
 P 14250 11450
 AR Path="/5729E275" Ref="U16047"  Part="2" 
@@ -1056,7 +1026,7 @@ $EndComp
 Text HLabel 13600 11550 0    60   Input ~ 0
 FLASH/
 $Comp
-L 74HC04 U16038
+L agc_kicad_components:74HC04 U16038
 U 6 1 572A55CB
 P 7650 12700
 AR Path="/572A55CB" Ref="U16038"  Part="6" 
@@ -1069,7 +1039,7 @@ F 3 "" H 7650 12700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16048
+L agc_kicad_components:74HC02 U16048
 U 1 1 572A55D1
 P 4850 11900
 AR Path="/572A55D1" Ref="U16048"  Part="1" 
@@ -1084,7 +1054,7 @@ $EndComp
 Text HLabel 4050 11800 0    60   Input ~ 0
 CHWL09/
 $Comp
-L 74HC02 U16048
+L agc_kicad_components:74HC02 U16048
 U 2 1 572A55D9
 P 6200 12000
 AR Path="/572A55D9" Ref="U16048"  Part="2" 
@@ -1098,7 +1068,7 @@ F 4 "1" H 6450 12000 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16048
+L agc_kicad_components:74HC02 U16048
 U 3 1 572A55DF
 P 6200 12700
 AR Path="/572A55DF" Ref="U16048"  Part="3" 
@@ -1111,7 +1081,7 @@ F 3 "" H 6200 12700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16048
+L agc_kicad_components:74HC02 U16048
 U 4 1 572A55E5
 P 7650 12100
 AR Path="/572A55E5" Ref="U16048"  Part="4" 
@@ -1128,7 +1098,7 @@ S4BTAK
 Text HLabel 8300 12100 2    60   Output ~ 0
 CH1209
 $Comp
-L 74HC04 U16050
+L agc_kicad_components:74HC04 U16050
 U 1 1 572BE8CD
 P 7650 13900
 AR Path="/572BE8CD" Ref="U16050"  Part="1" 
@@ -1141,7 +1111,7 @@ F 3 "" H 7650 13900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16049
+L agc_kicad_components:74HC02 U16049
 U 1 1 572BE8D3
 P 4850 13100
 AR Path="/572BE8D3" Ref="U16049"  Part="1" 
@@ -1156,7 +1126,7 @@ $EndComp
 Text HLabel 4050 13000 0    60   Input ~ 0
 CHWL10/
 $Comp
-L 74HC02 U16049
+L agc_kicad_components:74HC02 U16049
 U 2 1 572BE8DB
 P 6200 13200
 AR Path="/572BE8DB" Ref="U16049"  Part="2" 
@@ -1170,7 +1140,7 @@ F 4 "1" H 6450 13200 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16049
+L agc_kicad_components:74HC02 U16049
 U 3 1 572BE8E1
 P 6200 13900
 AR Path="/572BE8E1" Ref="U16049"  Part="3" 
@@ -1183,7 +1153,7 @@ F 3 "" H 6200 13900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16049
+L agc_kicad_components:74HC02 U16049
 U 4 1 572BE8E7
 P 7650 13300
 AR Path="/572BE8E7" Ref="U16049"  Part="4" 
@@ -1200,7 +1170,7 @@ ZEROPT
 Text HLabel 8300 13300 2    60   Output ~ 0
 CH1210
 $Comp
-L 74HC04 U16050
+L agc_kicad_components:74HC04 U16050
 U 2 1 572CBF15
 P 7650 15100
 AR Path="/572CBF15" Ref="U16050"  Part="2" 
@@ -1213,7 +1183,7 @@ F 3 "" H 7650 15100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16051
+L agc_kicad_components:74HC02 U16051
 U 1 1 572CBF1B
 P 4850 14300
 AR Path="/572CBF1B" Ref="U16051"  Part="1" 
@@ -1228,7 +1198,7 @@ $EndComp
 Text HLabel 4050 14200 0    60   Input ~ 0
 CHWL11/
 $Comp
-L 74HC02 U16051
+L agc_kicad_components:74HC02 U16051
 U 2 1 572CBF23
 P 6200 14400
 AR Path="/572CBF23" Ref="U16051"  Part="2" 
@@ -1242,7 +1212,7 @@ F 4 "1" H 6450 14400 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16051
+L agc_kicad_components:74HC02 U16051
 U 3 1 572CBF29
 P 6200 15100
 AR Path="/572CBF29" Ref="U16051"  Part="3" 
@@ -1255,7 +1225,7 @@ F 3 "" H 6200 15100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16051
+L agc_kicad_components:74HC02 U16051
 U 4 1 572CBF2F
 P 7650 14500
 AR Path="/572CBF2F" Ref="U16051"  Part="4" 
@@ -1272,7 +1242,7 @@ DISDAC
 Text HLabel 8300 14500 2    60   Output ~ 0
 CH1211
 Wire Wire Line
-	4050 3100 4250 3100
+	4050 3100 4200 3100
 Wire Wire Line
 	5450 3200 5600 3200
 Wire Wire Line
@@ -1289,7 +1259,7 @@ Wire Wire Line
 	5600 3750 5600 3900
 Connection ~ 6800 3300
 Wire Wire Line
-	6800 3300 7050 3300
+	6800 3300 7000 3300
 Wire Wire Line
 	7000 3300 7000 4000
 Wire Wire Line
@@ -1315,7 +1285,7 @@ Wire Wire Line
 	11850 3750 11850 3900
 Connection ~ 13050 3300
 Wire Wire Line
-	13050 3300 13300 3300
+	13050 3300 13250 3300
 Wire Wire Line
 	13250 3300 13250 4000
 Wire Wire Line
@@ -1347,7 +1317,7 @@ Wire Wire Line
 Wire Wire Line
 	16700 3400 16750 3400
 Wire Wire Line
-	4050 4600 4250 4600
+	4050 4600 4200 4600
 Wire Wire Line
 	5450 4700 5600 4700
 Wire Wire Line
@@ -1364,7 +1334,7 @@ Wire Wire Line
 	5600 5250 5600 5400
 Connection ~ 6800 4800
 Wire Wire Line
-	6800 4800 7050 4800
+	6800 4800 7000 4800
 Wire Wire Line
 	7000 4800 7000 5500
 Wire Wire Line
@@ -1390,7 +1360,7 @@ Wire Wire Line
 	11850 5250 11850 5400
 Connection ~ 13050 4800
 Wire Wire Line
-	13050 4800 13300 4800
+	13050 4800 13250 4800
 Wire Wire Line
 	13250 4800 13250 5500
 Wire Wire Line
@@ -1428,19 +1398,19 @@ Wire Wire Line
 Wire Wire Line
 	6900 5000 7050 5000
 Wire Wire Line
-	6900 1600 6900 14600
+	6900 1600 6900 3500
 Wire Wire Line
 	6900 3500 7050 3500
 Wire Wire Line
 	5500 5600 5600 5600
 Wire Wire Line
-	5500 2200 5500 15200
+	5500 2200 5500 4100
 Wire Wire Line
 	5500 4100 5600 4100
 Wire Wire Line
 	4250 3300 4100 3300
 Wire Wire Line
-	4100 2650 4100 14400
+	4100 2650 4100 3300
 Wire Wire Line
 	4100 4800 4250 4800
 Wire Wire Line
@@ -1452,7 +1422,7 @@ Wire Wire Line
 Wire Wire Line
 	13150 3500 13300 3500
 Wire Wire Line
-	4050 6100 4250 6100
+	4050 6100 4200 6100
 Wire Wire Line
 	5450 6200 5600 6200
 Wire Wire Line
@@ -1469,7 +1439,7 @@ Wire Wire Line
 	5600 6750 5600 6900
 Connection ~ 6800 6300
 Wire Wire Line
-	6800 6300 7050 6300
+	6800 6300 7000 6300
 Wire Wire Line
 	7000 6300 7000 7000
 Wire Wire Line
@@ -1495,7 +1465,7 @@ Wire Wire Line
 	11850 6750 11850 6900
 Connection ~ 13050 6300
 Wire Wire Line
-	13050 6300 13300 6300
+	13050 6300 13250 6300
 Wire Wire Line
 	13250 6300 13250 7000
 Wire Wire Line
@@ -1545,7 +1515,7 @@ Connection ~ 11750 5600
 Connection ~ 13150 5000
 Connection ~ 4100 4800
 Wire Wire Line
-	4050 7600 4250 7600
+	4050 7600 4200 7600
 Wire Wire Line
 	5450 7700 5600 7700
 Wire Wire Line
@@ -1562,7 +1532,7 @@ Wire Wire Line
 	5600 8250 5600 8400
 Connection ~ 6800 7800
 Wire Wire Line
-	6800 7800 7050 7800
+	6800 7800 7000 7800
 Wire Wire Line
 	7000 7800 7000 8500
 Wire Wire Line
@@ -1588,7 +1558,7 @@ Wire Wire Line
 	11850 8250 11850 8400
 Connection ~ 13050 7800
 Wire Wire Line
-	13050 7800 13300 7800
+	13050 7800 13250 7800
 Wire Wire Line
 	13250 7800 13250 8500
 Wire Wire Line
@@ -1638,7 +1608,7 @@ Connection ~ 10350 6300
 Connection ~ 11750 7100
 Connection ~ 13150 6500
 Wire Wire Line
-	4050 9100 4250 9100
+	4050 9100 4200 9100
 Wire Wire Line
 	5450 9200 5600 9200
 Wire Wire Line
@@ -1655,7 +1625,7 @@ Wire Wire Line
 	5600 9750 5600 9900
 Connection ~ 6800 9300
 Wire Wire Line
-	6800 9300 7050 9300
+	6800 9300 7000 9300
 Wire Wire Line
 	7000 9300 7000 10000
 Wire Wire Line
@@ -1681,7 +1651,7 @@ Wire Wire Line
 	11850 9750 11850 9900
 Connection ~ 13050 9300
 Wire Wire Line
-	13050 9300 13300 9300
+	13050 9300 13250 9300
 Wire Wire Line
 	13250 9300 13250 9850
 Wire Wire Line
@@ -1729,7 +1699,7 @@ Connection ~ 10350 7800
 Connection ~ 11750 8600
 Connection ~ 13150 8000
 Wire Wire Line
-	4050 10600 4250 10600
+	4050 10600 4200 10600
 Wire Wire Line
 	5450 10700 5600 10700
 Wire Wire Line
@@ -1746,7 +1716,7 @@ Wire Wire Line
 	5600 11250 5600 11400
 Connection ~ 6800 10800
 Wire Wire Line
-	6800 10800 7050 10800
+	6800 10800 7000 10800
 Wire Wire Line
 	7000 10800 7000 11500
 Wire Wire Line
@@ -1772,7 +1742,7 @@ Wire Wire Line
 	11850 11250 11850 11400
 Connection ~ 13050 10800
 Wire Wire Line
-	13050 10800 13300 10800
+	13050 10800 13250 10800
 Wire Wire Line
 	13250 10800 13250 11350
 Connection ~ 13250 10800
@@ -1845,7 +1815,7 @@ Wire Wire Line
 	5600 12450 5600 12600
 Connection ~ 6800 12000
 Wire Wire Line
-	6800 12000 7050 12000
+	6800 12000 7000 12000
 Wire Wire Line
 	7000 12000 7000 12700
 Wire Wire Line
@@ -1882,7 +1852,7 @@ Wire Wire Line
 	5600 13650 5600 13800
 Connection ~ 6800 13200
 Wire Wire Line
-	6800 13200 7050 13200
+	6800 13200 7000 13200
 Wire Wire Line
 	7000 13200 7000 13900
 Wire Wire Line
@@ -1919,7 +1889,7 @@ Wire Wire Line
 	5600 14850 5600 15000
 Connection ~ 6800 14400
 Wire Wire Line
-	6800 14400 7050 14400
+	6800 14400 7000 14400
 Wire Wire Line
 	7000 14400 7000 15100
 Wire Wire Line
@@ -1939,7 +1909,7 @@ Connection ~ 6900 13400
 Connection ~ 5500 14000
 Connection ~ 4100 13200
 $Comp
-L 74HC02 U16052
+L agc_kicad_components:74HC02 U16052
 U 1 1 572D657B
 P 11100 11900
 AR Path="/572D657B" Ref="U16052"  Part="1" 
@@ -1952,7 +1922,7 @@ F 3 "" H 11100 11900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16052
+L agc_kicad_components:74HC02 U16052
 U 2 1 572D6582
 P 12450 12000
 AR Path="/572D6582" Ref="U16052"  Part="2" 
@@ -1966,7 +1936,7 @@ F 4 "1" H 12700 12000 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16052
+L agc_kicad_components:74HC02 U16052
 U 3 1 572D6588
 P 12450 12700
 AR Path="/572D6588" Ref="U16052"  Part="3" 
@@ -1979,7 +1949,7 @@ F 3 "" H 12450 12700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16052
+L agc_kicad_components:74HC02 U16052
 U 4 1 572D658E
 P 13900 12100
 AR Path="/572D658E" Ref="U16052"  Part="4" 
@@ -1994,7 +1964,7 @@ $EndComp
 Text HLabel 14850 12650 2    60   Output ~ 0
 OPEROR
 $Comp
-L 74HC27 U16053
+L agc_kicad_components:74HC27 U16053
 U 1 1 572D6595
 P 15200 12100
 AR Path="/572D6595" Ref="U16053"  Part="1" 
@@ -2009,7 +1979,7 @@ $EndComp
 Text HLabel 14550 12250 0    60   Input ~ 0
 CH0707
 $Comp
-L 74LVC07 U16044
+L agc_kicad_components:74LVC07 U16044
 U 3 1 572D659C
 P 16250 12100
 AR Path="/572D659C" Ref="U16044"  Part="3" 
@@ -2024,7 +1994,7 @@ $EndComp
 Text HLabel 16750 12100 2    60   Output ~ 0
 CHOR07/
 $Comp
-L 74HC02 U16047
+L agc_kicad_components:74HC02 U16047
 U 3 1 572D65A3
 P 14200 12650
 AR Path="/572D65A3" Ref="U16047"  Part="3" 
@@ -2054,7 +2024,7 @@ Wire Wire Line
 	11850 12450 11850 12600
 Connection ~ 13050 12000
 Wire Wire Line
-	13050 12000 13300 12000
+	13050 12000 13250 12000
 Wire Wire Line
 	13250 12000 13250 12550
 Connection ~ 13250 12000
@@ -2088,7 +2058,7 @@ Connection ~ 13150 11000
 Text HLabel 14550 11950 0    60   Input ~ 0
 CH1207
 $Comp
-L 74HC04 U16050
+L agc_kicad_components:74HC04 U16050
 U 3 1 572F77F5
 P 21650 7500
 AR Path="/572F77F5" Ref="U16050"  Part="3" 
@@ -2101,7 +2071,7 @@ F 3 "" H 21650 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16054
+L agc_kicad_components:74HC02 U16054
 U 1 1 572F77FB
 P 18850 6700
 AR Path="/572F77FB" Ref="U16054"  Part="1" 
@@ -2116,7 +2086,7 @@ $EndComp
 Text HLabel 18050 6600 0    60   Input ~ 0
 CHWL12/
 $Comp
-L 74HC02 U16054
+L agc_kicad_components:74HC02 U16054
 U 2 1 572F7803
 P 20200 6800
 AR Path="/572F7803" Ref="U16054"  Part="2" 
@@ -2130,7 +2100,7 @@ F 4 "1" H 20450 6800 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16054
+L agc_kicad_components:74HC02 U16054
 U 3 1 572F7809
 P 20200 7500
 AR Path="/572F7809" Ref="U16054"  Part="3" 
@@ -2143,7 +2113,7 @@ F 3 "" H 20200 7500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16054
+L agc_kicad_components:74HC02 U16054
 U 4 1 572F780F
 P 21650 6900
 AR Path="/572F780F" Ref="U16054"  Part="4" 
@@ -2160,7 +2130,7 @@ MROLGT
 Text HLabel 22300 6900 2    60   Output ~ 0
 CH1212
 $Comp
-L 74HC04 U16050
+L agc_kicad_components:74HC04 U16050
 U 4 1 572F7817
 P 21650 8700
 AR Path="/572F7817" Ref="U16050"  Part="4" 
@@ -2173,7 +2143,7 @@ F 3 "" H 21650 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16055
+L agc_kicad_components:74HC02 U16055
 U 1 1 572F781D
 P 18850 7900
 AR Path="/572F781D" Ref="U16055"  Part="1" 
@@ -2188,7 +2158,7 @@ $EndComp
 Text HLabel 18050 7800 0    60   Input ~ 0
 CHWL13/
 $Comp
-L 74HC02 U16055
+L agc_kicad_components:74HC02 U16055
 U 2 1 572F7825
 P 20200 8000
 AR Path="/572F7825" Ref="U16055"  Part="2" 
@@ -2202,7 +2172,7 @@ F 4 "1" H 20450 8000 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16055
+L agc_kicad_components:74HC02 U16055
 U 3 1 572F782B
 P 20200 8700
 AR Path="/572F782B" Ref="U16055"  Part="3" 
@@ -2215,7 +2185,7 @@ F 3 "" H 20200 8700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16055
+L agc_kicad_components:74HC02 U16055
 U 4 1 572F7831
 P 21650 8100
 AR Path="/572F7831" Ref="U16055"  Part="4" 
@@ -2232,7 +2202,7 @@ S4BSEQ
 Text HLabel 22300 8100 2    60   Output ~ 0
 CH1213
 $Comp
-L 74HC04 U16050
+L agc_kicad_components:74HC04 U16050
 U 5 1 572F7839
 P 21650 9900
 AR Path="/572F7839" Ref="U16050"  Part="5" 
@@ -2245,7 +2215,7 @@ F 3 "" H 21650 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16056
+L agc_kicad_components:74HC02 U16056
 U 1 1 572F783F
 P 18850 9100
 AR Path="/572F783F" Ref="U16056"  Part="1" 
@@ -2260,7 +2230,7 @@ $EndComp
 Text HLabel 18050 9000 0    60   Input ~ 0
 CHWL14/
 $Comp
-L 74HC02 U16056
+L agc_kicad_components:74HC02 U16056
 U 2 1 572F7847
 P 20200 9200
 AR Path="/572F7847" Ref="U16056"  Part="2" 
@@ -2274,7 +2244,7 @@ F 4 "1" H 20450 9200 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16056
+L agc_kicad_components:74HC02 U16056
 U 3 1 572F784D
 P 20200 9900
 AR Path="/572F784D" Ref="U16056"  Part="3" 
@@ -2287,7 +2257,7 @@ F 3 "" H 20200 9900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U16056
+L agc_kicad_components:74HC02 U16056
 U 4 1 572F7853
 P 21650 9300
 AR Path="/572F7853" Ref="U16056"  Part="4" 
@@ -2321,7 +2291,7 @@ Wire Wire Line
 	19600 7250 19600 7400
 Connection ~ 20800 6800
 Wire Wire Line
-	20800 6800 21050 6800
+	20800 6800 21000 6800
 Wire Wire Line
 	21000 6800 21000 7500
 Wire Wire Line
@@ -2334,7 +2304,7 @@ Wire Wire Line
 Wire Wire Line
 	19500 7600 19600 7600
 Wire Wire Line
-	17600 6800 18250 6800
+	17600 6800 18100 6800
 Wire Wire Line
 	22300 6900 22250 6900
 Wire Wire Line
@@ -2355,7 +2325,7 @@ Wire Wire Line
 	19600 8450 19600 8600
 Connection ~ 20800 8000
 Wire Wire Line
-	20800 8000 21050 8000
+	20800 8000 21000 8000
 Wire Wire Line
 	21000 8000 21000 8700
 Wire Wire Line
@@ -2392,7 +2362,7 @@ Wire Wire Line
 	19600 9650 19600 9800
 Connection ~ 20800 9200
 Wire Wire Line
-	20800 9200 21050 9200
+	20800 9200 21000 9200
 Wire Wire Line
 	21000 9200 21000 9900
 Wire Wire Line
@@ -2412,15 +2382,15 @@ Connection ~ 20900 8200
 Connection ~ 19500 8800
 Connection ~ 18100 8000
 Wire Wire Line
-	20900 6550 20900 9400
+	20900 6550 20900 7000
 Wire Wire Line
-	19500 6550 19500 10000
+	19500 6550 19500 7600
 Wire Wire Line
-	18100 6800 18100 9200
+	18100 6800 18100 8000
 Text Notes 5750 1400 0    60   ~ 0
 CH12 BITS 1-6,9-11
 $Comp
-L 74HC04 U16050
+L agc_kicad_components:74HC04 U16050
 U 6 1 57328DA1
 P 3200 2650
 AR Path="/57328DA1" Ref="U16050"  Part="6" 
@@ -2433,10 +2403,10 @@ F 3 "" H 3200 2650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3800 2650 4200 2650
+	3800 2650 4100 2650
 Connection ~ 4100 3300
 $Comp
-L 74HC27 U16053
+L agc_kicad_components:74HC27 U16053
 U 2 1 5732EA60
 P 1950 2650
 AR Path="/5732EA60" Ref="U16053"  Part="2" 
@@ -2455,7 +2425,7 @@ Wire Wire Line
 Text HLabel 1150 2500 0    60   Input ~ 0
 WCHG/
 $Comp
-L 74HC27 U16053
+L agc_kicad_components:74HC27 U16053
 U 3 1 573313A4
 P 1950 2100
 AR Path="/573313A4" Ref="U16053"  Part="3" 
@@ -2472,7 +2442,7 @@ Wire Wire Line
 Text HLabel 1150 1950 0    60   Input ~ 0
 CCHG/
 $Comp
-L 74HC02 U16047
+L agc_kicad_components:74HC02 U16047
 U 4 1 57333FDA
 P 3200 2200
 AR Path="/57333FDA" Ref="U16047"  Part="4" 
@@ -2491,7 +2461,7 @@ Wire Wire Line
 Text HLabel 2550 2300 0    60   Input ~ 0
 GOJAM
 $Comp
-L 74HC04 U16057
+L agc_kicad_components:74HC04 U16057
 U 1 1 5733B62E
 P 4550 2200
 AR Path="/5733B62E" Ref="U16057"  Part="1" 
@@ -2506,10 +2476,10 @@ $EndComp
 Wire Wire Line
 	3800 2200 3950 2200
 Wire Wire Line
-	5150 2200 5600 2200
+	5150 2200 5500 2200
 Connection ~ 5500 4100
 $Comp
-L 74HC02 U16058
+L agc_kicad_components:74HC02 U16058
 U 1 1 573505AE
 P 1950 1600
 AR Path="/573505AE" Ref="U16058"  Part="1" 
@@ -2522,7 +2492,7 @@ F 3 "" H 1950 1600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC04 U16057
+L agc_kicad_components:74HC04 U16057
 U 2 1 5735295F
 P 3200 1600
 AR Path="/5735295F" Ref="U16057"  Part="2" 
@@ -2537,23 +2507,23 @@ $EndComp
 Wire Wire Line
 	2550 1600 2600 1600
 Wire Wire Line
-	3800 1600 7000 1600
+	3800 1600 6900 1600
 Connection ~ 6900 3500
 Wire Wire Line
-	1150 1500 1350 1500
+	1150 1500 1200 1500
 Text HLabel 1150 1500 0    60   Input ~ 0
 XT1/
 Wire Wire Line
-	1150 1700 1350 1700
+	1150 1700 1300 1700
 Text HLabel 1150 1700 0    60   Input ~ 0
 XB2/
 Wire Wire Line
-	1300 1700 1300 2650
+	1300 1700 1300 2100
 Wire Wire Line
 	1300 2100 1350 2100
 Connection ~ 1300 1700
 Wire Wire Line
-	1200 1500 1200 2800
+	1200 1500 1200 2250
 Wire Wire Line
 	1200 2250 1350 2250
 Connection ~ 1200 1500
@@ -2579,19 +2549,19 @@ Connection ~ 10350 3300
 Connection ~ 11750 4100
 Connection ~ 13150 3500
 Wire Wire Line
-	10350 2600 10350 12000
+	10350 2600 10350 3300
 Wire Wire Line
 	10350 2600 10150 2600
 Text HLabel 10150 2600 0    60   Input ~ 0
 WCH11/
 Wire Wire Line
-	11750 2600 11750 12800
+	11750 2600 11750 4100
 Wire Wire Line
 	11750 2600 11600 2600
 Text HLabel 11600 2600 0    60   Input ~ 0
 CCH11
 Wire Wire Line
-	13150 2600 13150 12200
+	13150 2600 13150 3500
 Wire Wire Line
 	13150 2600 13000 2600
 Text HLabel 13000 2600 0    60   Input ~ 0
@@ -2605,4 +2575,166 @@ Connection ~ 5500 2200
 Text HLabel 7000 1600 2    60   Output ~ 0
 RCH12/
 Connection ~ 6900 1600
+Wire Wire Line
+	7000 3300 7050 3300
+Wire Wire Line
+	13250 3300 13300 3300
+Wire Wire Line
+	4200 3100 4250 3100
+Wire Wire Line
+	7000 4800 7050 4800
+Wire Wire Line
+	13250 4800 13300 4800
+Wire Wire Line
+	4200 4600 4250 4600
+Wire Wire Line
+	7000 6300 7050 6300
+Wire Wire Line
+	13250 6300 13300 6300
+Wire Wire Line
+	4200 6100 4250 6100
+Wire Wire Line
+	10350 4800 10350 6300
+Wire Wire Line
+	6900 5000 6900 6500
+Wire Wire Line
+	5500 5600 5500 7100
+Wire Wire Line
+	11750 5600 11750 7100
+Wire Wire Line
+	13150 5000 13150 6500
+Wire Wire Line
+	4100 4800 4100 6300
+Wire Wire Line
+	7000 7800 7050 7800
+Wire Wire Line
+	13250 7800 13300 7800
+Wire Wire Line
+	4200 7600 4250 7600
+Wire Wire Line
+	4100 6300 4100 7800
+Wire Wire Line
+	5500 7100 5500 8600
+Wire Wire Line
+	6900 6500 6900 8000
+Wire Wire Line
+	10350 6300 10350 7800
+Wire Wire Line
+	11750 7100 11750 8600
+Wire Wire Line
+	13150 6500 13150 8000
+Wire Wire Line
+	7000 9300 7050 9300
+Wire Wire Line
+	13250 9300 13300 9300
+Wire Wire Line
+	4200 9100 4250 9100
+Wire Wire Line
+	4100 7800 4100 9300
+Wire Wire Line
+	5500 8600 5500 10100
+Wire Wire Line
+	6900 8000 6900 9500
+Wire Wire Line
+	10350 7800 10350 9300
+Wire Wire Line
+	11750 8600 11750 10100
+Wire Wire Line
+	13150 8000 13150 9500
+Wire Wire Line
+	7000 10800 7050 10800
+Wire Wire Line
+	13250 10800 13300 10800
+Wire Wire Line
+	4200 10600 4250 10600
+Wire Wire Line
+	4100 9300 4100 10800
+Wire Wire Line
+	5500 10100 5500 11600
+Wire Wire Line
+	6900 9500 6900 11000
+Wire Wire Line
+	10350 9300 10350 10800
+Wire Wire Line
+	11750 10100 11750 11600
+Wire Wire Line
+	13150 9500 13150 11000
+Wire Wire Line
+	7000 12000 7050 12000
+Wire Wire Line
+	4100 10800 4100 12000
+Wire Wire Line
+	6900 11000 6900 12200
+Wire Wire Line
+	5500 11600 5500 12800
+Wire Wire Line
+	7000 13200 7050 13200
+Wire Wire Line
+	6900 12200 6900 13400
+Wire Wire Line
+	5500 12800 5500 14000
+Wire Wire Line
+	4100 12000 4100 13200
+Wire Wire Line
+	7000 14400 7050 14400
+Wire Wire Line
+	6900 13400 6900 14600
+Wire Wire Line
+	5500 14000 5500 15200
+Wire Wire Line
+	4100 13200 4100 14400
+Wire Wire Line
+	13250 12000 13300 12000
+Wire Wire Line
+	10350 10800 10350 12000
+Wire Wire Line
+	11750 11600 11750 12800
+Wire Wire Line
+	13150 11000 13150 12200
+Wire Wire Line
+	21000 6800 21050 6800
+Wire Wire Line
+	21000 8000 21050 8000
+Wire Wire Line
+	20900 7000 20900 8200
+Wire Wire Line
+	19500 7600 19500 8800
+Wire Wire Line
+	18100 6800 18250 6800
+Wire Wire Line
+	21000 9200 21050 9200
+Wire Wire Line
+	20900 8200 20900 9400
+Wire Wire Line
+	19500 8800 19500 10000
+Wire Wire Line
+	18100 8000 18100 9200
+Wire Wire Line
+	4100 3300 4100 4800
+Wire Wire Line
+	5500 4100 5500 5600
+Wire Wire Line
+	6900 3500 6900 5000
+Wire Wire Line
+	1300 1700 1350 1700
+Wire Wire Line
+	1200 1500 1350 1500
+Wire Wire Line
+	1300 2100 1300 2650
+Wire Wire Line
+	1200 2250 1200 2800
+Wire Wire Line
+	10350 3300 10350 4800
+Wire Wire Line
+	11750 4100 11750 5600
+Wire Wire Line
+	13150 3500 13150 5000
+Wire Wire Line
+	4100 2650 4200 2650
+Wire Wire Line
+	5500 2200 5600 2200
+Wire Wire Line
+	6900 1600 7000 1600
+Text Notes 22850 15350 2    400  ~ 0
+A16
 $EndSCHEMATC

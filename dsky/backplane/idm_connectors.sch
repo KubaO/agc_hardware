@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agc_kicad_components
-LIBS:backplane-cache
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
 encoding utf-8
@@ -45,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L PCN10A-128P J1
+L agc_kicad_components:PCN10A-128P J1
 U 1 1 592514B5
 P 4200 5100
 F 0 "J1" H 4200 3450 50  0000 L CNN
@@ -56,7 +25,7 @@ F 3 "" H 4200 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J1
+L agc_kicad_components:PCN10A-128P J1
 U 2 1 592515BD
 P 5200 5100
 F 0 "J1" H 5200 3450 50  0000 L CNN
@@ -67,7 +36,7 @@ F 3 "" H 5200 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J1
+L agc_kicad_components:PCN10A-128P J1
 U 3 1 59251639
 P 6200 5100
 F 0 "J1" H 6200 3450 50  0000 L CNN
@@ -78,7 +47,7 @@ F 3 "" H 6200 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J1
+L agc_kicad_components:PCN10A-128P J1
 U 4 1 5925163F
 P 7200 5100
 F 0 "J1" H 7200 3450 50  0000 L CNN
@@ -589,7 +558,7 @@ D1_P1
 Wire Wire Line
 	6950 6650 7000 6650
 $Comp
-L PCN10A-128P J2
+L agc_kicad_components:PCN10A-128P J2
 U 1 1 59479E7F
 P 9150 5100
 F 0 "J2" H 9150 3450 50  0000 L CNN
@@ -600,7 +569,7 @@ F 3 "" H 9150 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J2
+L agc_kicad_components:PCN10A-128P J2
 U 2 1 59479E86
 P 10150 5100
 F 0 "J2" H 10150 3450 50  0000 L CNN
@@ -611,7 +580,7 @@ F 3 "" H 10150 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J2
+L agc_kicad_components:PCN10A-128P J2
 U 3 1 59479E8D
 P 11150 5100
 F 0 "J2" H 11150 3450 50  0000 L CNN
@@ -622,7 +591,7 @@ F 3 "" H 11150 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J2
+L agc_kicad_components:PCN10A-128P J2
 U 4 1 59479E94
 P 12150 5100
 F 0 "J2" H 12150 3450 50  0000 L CNN
@@ -1133,7 +1102,7 @@ D2_P1
 Wire Wire Line
 	11900 6650 11950 6650
 $Comp
-L PCN10A-128P J3
+L agc_kicad_components:PCN10A-128P J3
 U 1 1 5947A543
 P 14100 5100
 AR Path="/59251213/5947A543" Ref="J3"  Part="1" 
@@ -1146,7 +1115,7 @@ F 3 "" H 14100 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J3
+L agc_kicad_components:PCN10A-128P J3
 U 2 1 5947A54A
 P 15100 5100
 AR Path="/59251213/5947A54A" Ref="J3"  Part="2" 
@@ -1159,7 +1128,7 @@ F 3 "" H 15100 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J3
+L agc_kicad_components:PCN10A-128P J3
 U 3 1 5947A551
 P 16100 5100
 AR Path="/59251213/5947A551" Ref="J3"  Part="3" 
@@ -1172,7 +1141,7 @@ F 3 "" H 16100 5100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J3
+L agc_kicad_components:PCN10A-128P J3
 U 4 1 5947A558
 P 17100 5100
 AR Path="/59251213/5947A558" Ref="J3"  Part="4" 
@@ -1685,7 +1654,7 @@ D3_P1
 Wire Wire Line
 	16850 6650 16900 6650
 $Comp
-L PCN10A-128P J4
+L agc_kicad_components:PCN10A-128P J4
 U 1 1 5947AD5B
 P 4200 8800
 AR Path="/59251213/5947AD5B" Ref="J4"  Part="1" 
@@ -1698,7 +1667,7 @@ F 3 "" H 4200 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J4
+L agc_kicad_components:PCN10A-128P J4
 U 2 1 5947AD62
 P 5200 8800
 AR Path="/59251213/5947AD62" Ref="J4"  Part="2" 
@@ -1711,7 +1680,7 @@ F 3 "" H 5200 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J4
+L agc_kicad_components:PCN10A-128P J4
 U 3 1 5947AD69
 P 6200 8800
 AR Path="/59251213/5947AD69" Ref="J4"  Part="3" 
@@ -1724,7 +1693,7 @@ F 3 "" H 6200 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J4
+L agc_kicad_components:PCN10A-128P J4
 U 4 1 5947AD70
 P 7200 8800
 AR Path="/59251213/5947AD70" Ref="J4"  Part="4" 
@@ -2237,7 +2206,7 @@ D4_P1
 Wire Wire Line
 	6950 10350 7000 10350
 $Comp
-L PCN10A-128P J5
+L agc_kicad_components:PCN10A-128P J5
 U 1 1 5947B42B
 P 9150 8800
 AR Path="/59251213/5947B42B" Ref="J5"  Part="1" 
@@ -2250,7 +2219,7 @@ F 3 "" H 9150 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J5
+L agc_kicad_components:PCN10A-128P J5
 U 2 1 5947B432
 P 10150 8800
 AR Path="/59251213/5947B432" Ref="J5"  Part="2" 
@@ -2263,7 +2232,7 @@ F 3 "" H 10150 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J5
+L agc_kicad_components:PCN10A-128P J5
 U 3 1 5947B439
 P 11150 8800
 AR Path="/59251213/5947B439" Ref="J5"  Part="3" 
@@ -2276,7 +2245,7 @@ F 3 "" H 11150 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J5
+L agc_kicad_components:PCN10A-128P J5
 U 4 1 5947B440
 P 12150 8800
 AR Path="/59251213/5947B440" Ref="J5"  Part="4" 
@@ -2789,7 +2758,7 @@ D5_P1
 Wire Wire Line
 	11900 10350 11950 10350
 $Comp
-L PCN10A-128P J6
+L agc_kicad_components:PCN10A-128P J6
 U 1 1 5947BAC3
 P 14100 8800
 AR Path="/59251213/5947BAC3" Ref="J6"  Part="1" 
@@ -2802,7 +2771,7 @@ F 3 "" H 14100 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J6
+L agc_kicad_components:PCN10A-128P J6
 U 2 1 5947BACA
 P 15100 8800
 AR Path="/59251213/5947BACA" Ref="J6"  Part="2" 
@@ -2815,7 +2784,7 @@ F 3 "" H 15100 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J6
+L agc_kicad_components:PCN10A-128P J6
 U 3 1 5947BAD1
 P 16100 8800
 AR Path="/59251213/5947BAD1" Ref="J6"  Part="3" 
@@ -2828,7 +2797,7 @@ F 3 "" H 16100 8800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PCN10A-128P J6
+L agc_kicad_components:PCN10A-128P J6
 U 4 1 5947BAD8
 P 17100 8800
 AR Path="/59251213/5947BAD8" Ref="J6"  Part="4" 

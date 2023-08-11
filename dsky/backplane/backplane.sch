@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agc_kicad_components
-LIBS:backplane-cache
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -51,14 +20,14 @@ F0 "idm_connectors" 60
 F1 "idm_connectors.sch" 60
 $EndSheet
 $Comp
-L CONN_02X25 J9
+L Connector_Generic:Conn_02x25_Odd_Even J9
 U 1 1 594D9195
-P 9650 2350
-F 0 "J9" H 9650 3765 50  0000 C CNN
-F 1 "CONN_02X25" H 9650 3674 50  0000 C CNN
-F 2 "" H 9650 1600 60  0000 C CNN
-F 3 "" H 9650 1600 60  0000 C CNN
-	1    9650 2350
+P 9600 2350
+F 0 "J9" H 9600 3765 50  0000 C CNN
+F 1 "CONN_02X25" H 9600 3674 50  0000 C CNN
+F 2 "" H 9600 1600 60  0000 C CNN
+F 3 "" H 9600 1600 60  0000 C CNN
+	1    9600 2350
 	1    0    0    -1  
 $EndComp
 Text GLabel 9350 1150 0    60   Output ~ 0
@@ -86,10 +55,10 @@ Wire Wire Line
 Wire Wire Line
 	10850 1350 10850 1500
 $Comp
-L GND #PWR?
+L power:GND #PWR0101
 U 1 1 594D93DC
 P 10850 1500
-F 0 "#PWR?" H 10850 1250 50  0001 C CNN
+F 0 "#PWR0101" H 10850 1250 50  0001 C CNN
 F 1 "GND" H 10855 1327 50  0000 C CNN
 F 2 "" H 10850 1500 60  0000 C CNN
 F 3 "" H 10850 1500 60  0000 C CNN
@@ -125,10 +94,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 1750 8450 1600
 $Comp
-L +28VDC #PWR?
+L agc_kicad_components:+28VDC #PWR0102
 U 1 1 594D94BA
 P 8450 1600
-F 0 "#PWR?" H 8450 1450 50  0001 C CNN
+F 0 "#PWR0102" H 8450 1450 50  0001 C CNN
 F 1 "+28VDC" H 8465 1773 50  0000 C CNN
 F 2 "" H 8450 1600 60  0000 C CNN
 F 3 "" H 8450 1600 60  0000 C CNN

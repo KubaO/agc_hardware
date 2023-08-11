@@ -1,36 +1,5 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:agc_kicad_components
-LIBS:keyboard-cache
-EELAYER 26 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A3 11693 16535 portrait
 encoding utf-8
@@ -61,7 +30,7 @@ KEYCODE_2
 Text GLabel 4050 14250 0    60   Input ~ 0
 KEYCODE_1
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 589B20C2
 P 4000 14700
 F 0 "#PWR021" H 4000 14450 50  0001 C CNN
@@ -72,7 +41,7 @@ F 3 "" H 4000 14700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG023
+L power:PWR_FLAG #FLG023
 U 1 1 589B2EAA
 P 4900 14200
 F 0 "#FLG023" H 4900 14295 50  0001 C CNN
@@ -83,7 +52,7 @@ F 3 "" H 4900 14200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 589B2F74
 P 4900 14200
 F 0 "#PWR024" H 4900 13950 50  0001 C CNN
@@ -94,7 +63,7 @@ F 3 "" H 4900 14200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG025
+L power:PWR_FLAG #FLG025
 U 1 1 589B3099
 P 4900 13700
 F 0 "#FLG025" H 4900 13795 50  0001 C CNN
@@ -105,7 +74,7 @@ F 3 "" H 4900 13700 60  0000 C CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L +28VDC #PWR?
+L agc_kicad_components:+28VDC #PWR?
 U 1 1 5924630A
 P 4000 13500
 F 0 "#PWR?" H 4000 13350 50  0001 C CNN
@@ -116,7 +85,7 @@ F 3 "" H 4000 13500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +28VDC #PWR?
+L agc_kicad_components:+28VDC #PWR?
 U 1 1 59246323
 P 4900 13700
 F 0 "#PWR?" H 4900 13550 50  0001 C CNN
@@ -127,7 +96,7 @@ F 3 "" H 4900 13700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 592463DA
 P 2300 1950
 F 0 "J2" H 2450 1950 50  0000 C CNN
@@ -154,7 +123,7 @@ NC
 Text Notes 2050 1500 2    60   ~ 0
 NO
 $Comp
-L R R1
+L Device:R R1
 U 1 1 59246B66
 P 4050 1150
 F 0 "R1" H 4120 1196 50  0000 L CNN
@@ -165,7 +134,7 @@ F 3 "" H 4050 1150 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +28VDC #PWR?
+L agc_kicad_components:+28VDC #PWR?
 U 1 1 59246C3C
 P 4050 1000
 F 0 "#PWR?" H 4050 850 50  0001 C CNN
@@ -176,7 +145,7 @@ F 3 "" H 4050 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X05 J3
+L Connector_Generic:Conn_01x05 J3
 U 1 1 59246EAE
 P 2300 2550
 F 0 "J3" H 2450 2550 50  0000 C CNN
@@ -199,7 +168,7 @@ NC
 Text Notes 2050 2100 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J4
+L Connector_Generic:Conn_01x05 J4
 U 1 1 592475BB
 P 2300 3150
 F 0 "J4" H 2450 3150 50  0000 C CNN
@@ -220,7 +189,7 @@ NC
 Text Notes 2050 2700 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J5
+L Connector_Generic:Conn_01x05 J5
 U 1 1 592476D5
 P 2300 3750
 F 0 "J5" H 2450 3750 50  0000 C CNN
@@ -241,7 +210,7 @@ NC
 Text Notes 2050 3300 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J6
+L Connector_Generic:Conn_01x05 J6
 U 1 1 59248091
 P 2300 4350
 F 0 "J6" H 2450 4350 50  0000 C CNN
@@ -262,7 +231,7 @@ NC
 Text Notes 2050 3900 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J7
+L Connector_Generic:Conn_01x05 J7
 U 1 1 5924809C
 P 2300 4950
 F 0 "J7" H 2450 4950 50  0000 C CNN
@@ -283,7 +252,7 @@ NC
 Text Notes 2050 4500 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J8
+L Connector_Generic:Conn_01x05 J8
 U 1 1 592480A7
 P 2300 5550
 F 0 "J8" H 2450 5550 50  0000 C CNN
@@ -304,7 +273,7 @@ NC
 Text Notes 2050 5100 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J9
+L Connector_Generic:Conn_01x05 J9
 U 1 1 592480B2
 P 2300 6150
 F 0 "J9" H 2450 6150 50  0000 C CNN
@@ -325,7 +294,7 @@ NC
 Text Notes 2050 5700 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J10
+L Connector_Generic:Conn_01x05 J10
 U 1 1 59249539
 P 2300 6750
 F 0 "J10" H 2450 6750 50  0000 C CNN
@@ -346,7 +315,7 @@ NC
 Text Notes 2050 6300 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J11
+L Connector_Generic:Conn_01x05 J11
 U 1 1 59249544
 P 2300 7350
 F 0 "J11" H 2450 7350 50  0000 C CNN
@@ -367,7 +336,7 @@ NC
 Text Notes 2050 6900 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J12
+L Connector_Generic:Conn_01x05 J12
 U 1 1 5924954F
 P 2300 7950
 F 0 "J12" H 2450 7950 50  0000 C CNN
@@ -388,7 +357,7 @@ NC
 Text Notes 2050 7500 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J13
+L Connector_Generic:Conn_01x05 J13
 U 1 1 5924955A
 P 2300 8550
 F 0 "J13" H 2450 8550 50  0000 C CNN
@@ -409,7 +378,7 @@ NC
 Text Notes 2050 8100 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J14
+L Connector_Generic:Conn_01x05 J14
 U 1 1 59249565
 P 2300 9150
 F 0 "J14" H 2450 9150 50  0000 C CNN
@@ -430,7 +399,7 @@ NC
 Text Notes 2050 8700 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J15
+L Connector_Generic:Conn_01x05 J15
 U 1 1 59249570
 P 2300 9750
 F 0 "J15" H 2450 9750 50  0000 C CNN
@@ -451,7 +420,7 @@ NC
 Text Notes 2050 9300 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J16
+L Connector_Generic:Conn_01x05 J16
 U 1 1 5924957B
 P 2300 10350
 F 0 "J16" H 2450 10350 50  0000 C CNN
@@ -472,7 +441,7 @@ NC
 Text Notes 2050 9900 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J17
+L Connector_Generic:Conn_01x05 J17
 U 1 1 59249586
 P 2300 10950
 F 0 "J17" H 2450 10950 50  0000 C CNN
@@ -493,7 +462,7 @@ NC
 Text Notes 2050 10500 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J1
+L Connector_Generic:Conn_01x05 J1
 U 1 1 5924C335
 P 2300 1350
 F 0 "J1" H 2450 1350 50  0000 C CNN
@@ -514,7 +483,7 @@ NC
 Text Notes 2050 11100 2    60   ~ 0
 NO
 $Comp
-L CONN_01X05 J18
+L Connector_Generic:Conn_01x05 J18
 U 1 1 5924D1A3
 P 2300 11550
 F 0 "J18" H 2450 11550 50  0000 C CNN
@@ -525,7 +494,7 @@ F 3 "" H 2300 11550 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X05 J19
+L Connector_Generic:Conn_01x05 J19
 U 1 1 5924D1A9
 P 2300 12150
 F 0 "J19" H 2450 12150 50  0000 C CNN
@@ -591,7 +560,7 @@ Text Notes 3550 12150 0    60   ~ 0
  STBY
 NoConn ~ 2500 12350
 $Comp
-L +28VDC #PWR?
+L agc_kicad_components:+28VDC #PWR?
 U 1 1 59265FF5
 P 2750 12450
 F 0 "#PWR?" H 2750 12300 50  0001 C CNN
@@ -602,7 +571,7 @@ F 3 "" H 2750 12450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L D CR40
+L Device:D CR40
 U 1 1 5926953E
 P 5200 1550
 F 0 "CR40" H 5400 1500 50  0000 C CNN
@@ -613,7 +582,7 @@ F 3 "" H 5200 1550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR41
+L Device:D CR41
 U 1 1 5926B10C
 P 6250 1550
 F 0 "CR41" H 6450 1500 50  0000 C CNN
@@ -624,7 +593,7 @@ F 3 "" H 6250 1550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR42
+L Device:D CR42
 U 1 1 5926CEA5
 P 9400 1550
 F 0 "CR42" H 9600 1500 50  0000 C CNN
@@ -635,7 +604,7 @@ F 3 "" H 9400 1550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR1
+L Device:D CR1
 U 1 1 5926DE9F
 P 5200 2150
 F 0 "CR1" H 5400 2100 50  0000 C CNN
@@ -646,7 +615,7 @@ F 3 "" H 5200 2150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR32
+L Device:D CR32
 U 1 1 5926E8AB
 P 9400 2150
 F 0 "CR32" H 9600 2100 50  0000 C CNN
@@ -657,7 +626,7 @@ F 3 "" H 9400 2150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR2
+L Device:D CR2
 U 1 1 5926F1CB
 P 5200 2750
 F 0 "CR2" H 5400 2700 50  0000 C CNN
@@ -668,7 +637,7 @@ F 3 "" H 5200 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR9
+L Device:D CR9
 U 1 1 5926F225
 P 6250 2750
 F 0 "CR9" H 6450 2700 50  0000 C CNN
@@ -679,7 +648,7 @@ F 3 "" H 6250 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR16
+L Device:D CR16
 U 1 1 5926F9F2
 P 7300 2750
 F 0 "CR16" H 7500 2700 50  0000 C CNN
@@ -690,7 +659,7 @@ F 3 "" H 7300 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR23
+L Device:D CR23
 U 1 1 59270309
 P 8350 2750
 F 0 "CR23" H 8550 2700 50  0000 C CNN
@@ -701,7 +670,7 @@ F 3 "" H 8350 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR33
+L Device:D CR33
 U 1 1 59273BE4
 P 9400 2750
 F 0 "CR33" H 9600 2700 50  0000 C CNN
@@ -712,7 +681,7 @@ F 3 "" H 9400 2750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR3
+L Device:D CR3
 U 1 1 592763B9
 P 5200 3350
 F 0 "CR3" H 5400 3300 50  0000 C CNN
@@ -723,7 +692,7 @@ F 3 "" H 5200 3350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR10
+L Device:D CR10
 U 1 1 59276400
 P 6250 3350
 F 0 "CR10" H 6450 3300 50  0000 C CNN
@@ -734,7 +703,7 @@ F 3 "" H 6250 3350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR17
+L Device:D CR17
 U 1 1 59276444
 P 7300 3350
 F 0 "CR17" H 7500 3300 50  0000 C CNN
@@ -745,7 +714,7 @@ F 3 "" H 7300 3350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR4
+L Device:D CR4
 U 1 1 5927A4C6
 P 5200 3950
 F 0 "CR4" H 5400 3900 50  0000 C CNN
@@ -756,7 +725,7 @@ F 3 "" H 5200 3950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR11
+L Device:D CR11
 U 1 1 5927A512
 P 6250 3950
 F 0 "CR11" H 6450 3900 50  0000 C CNN
@@ -767,7 +736,7 @@ F 3 "" H 6250 3950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR18
+L Device:D CR18
 U 1 1 5927A55B
 P 7300 3950
 F 0 "CR18" H 7500 3900 50  0000 C CNN
@@ -778,7 +747,7 @@ F 3 "" H 7300 3950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR24
+L Device:D CR24
 U 1 1 5927A5B1
 P 8350 3950
 F 0 "CR24" H 8550 3900 50  0000 C CNN
@@ -789,7 +758,7 @@ F 3 "" H 8350 3950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR5
+L Device:D CR5
 U 1 1 5928033A
 P 5200 4550
 F 0 "CR5" H 5400 4500 50  0000 C CNN
@@ -800,7 +769,7 @@ F 3 "" H 5200 4550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR12
+L Device:D CR12
 U 1 1 592807CC
 P 6250 4550
 F 0 "CR12" H 6450 4500 50  0000 C CNN
@@ -811,7 +780,7 @@ F 3 "" H 6250 4550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR25
+L Device:D CR25
 U 1 1 5928089F
 P 8350 4550
 F 0 "CR25" H 8550 4500 50  0000 C CNN
@@ -822,7 +791,7 @@ F 3 "" H 8350 4550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR6
+L Device:D CR6
 U 1 1 5928337F
 P 5200 5150
 F 0 "CR6" H 5400 5100 50  0000 C CNN
@@ -833,7 +802,7 @@ F 3 "" H 5200 5150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR13
+L Device:D CR13
 U 1 1 59283A60
 P 6250 5150
 F 0 "CR13" H 6450 5100 50  0000 C CNN
@@ -844,7 +813,7 @@ F 3 "" H 6250 5150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR26
+L Device:D CR26
 U 1 1 59283E6A
 P 8350 5150
 F 0 "CR26" H 8550 5100 50  0000 C CNN
@@ -855,7 +824,7 @@ F 3 "" H 8350 5150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR34
+L Device:D CR34
 U 1 1 59285519
 P 9400 5150
 F 0 "CR34" H 9600 5100 50  0000 C CNN
@@ -866,7 +835,7 @@ F 3 "" H 9400 5150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR7
+L Device:D CR7
 U 1 1 59287D86
 P 5200 5750
 F 0 "CR7" H 5400 5700 50  0000 C CNN
@@ -877,7 +846,7 @@ F 3 "" H 5200 5750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR35
+L Device:D CR35
 U 1 1 5928AAB3
 P 9400 6350
 F 0 "CR35" H 9600 6300 50  0000 C CNN
@@ -888,7 +857,7 @@ F 3 "" H 9400 6350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR27
+L Device:D CR27
 U 1 1 5928B13E
 P 8350 6950
 F 0 "CR27" H 8550 6900 50  0000 C CNN
@@ -899,7 +868,7 @@ F 3 "" H 8350 6950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR28
+L Device:D CR28
 U 1 1 5928CA35
 P 8350 7550
 F 0 "CR28" H 8550 7500 50  0000 C CNN
@@ -910,7 +879,7 @@ F 3 "" H 8350 7550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR36
+L Device:D CR36
 U 1 1 5928CA8B
 P 9400 7550
 F 0 "CR36" H 9600 7500 50  0000 C CNN
@@ -921,7 +890,7 @@ F 3 "" H 9400 7550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR19
+L Device:D CR19
 U 1 1 5928EDA5
 P 7300 8150
 F 0 "CR19" H 7500 8100 50  0000 C CNN
@@ -932,7 +901,7 @@ F 3 "" H 7300 8150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR20
+L Device:D CR20
 U 1 1 5928F135
 P 7300 8750
 F 0 "CR20" H 7500 8700 50  0000 C CNN
@@ -943,7 +912,7 @@ F 3 "" H 7300 8750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR37
+L Device:D CR37
 U 1 1 5928F1BE
 P 9400 8750
 F 0 "CR37" H 9600 8700 50  0000 C CNN
@@ -954,7 +923,7 @@ F 3 "" H 9400 8750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR21
+L Device:D CR21
 U 1 1 5929237D
 P 7300 9350
 F 0 "CR21" H 7500 9300 50  0000 C CNN
@@ -965,7 +934,7 @@ F 3 "" H 7300 9350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR29
+L Device:D CR29
 U 1 1 592923E0
 P 8350 9350
 F 0 "CR29" H 8550 9300 50  0000 C CNN
@@ -976,7 +945,7 @@ F 3 "" H 8350 9350 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR22
+L Device:D CR22
 U 1 1 5929395C
 P 7300 9950
 F 0 "CR22" H 7500 9900 50  0000 C CNN
@@ -987,7 +956,7 @@ F 3 "" H 7300 9950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR30
+L Device:D CR30
 U 1 1 592939BB
 P 8350 9950
 F 0 "CR30" H 8550 9900 50  0000 C CNN
@@ -998,7 +967,7 @@ F 3 "" H 8350 9950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR38
+L Device:D CR38
 U 1 1 59293A23
 P 9400 9950
 F 0 "CR38" H 9600 9900 50  0000 C CNN
@@ -1009,7 +978,7 @@ F 3 "" H 9400 9950 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR14
+L Device:D CR14
 U 1 1 59296826
 P 6250 10550
 F 0 "CR14" H 6450 10500 50  0000 C CNN
@@ -1020,7 +989,7 @@ F 3 "" H 6250 10550 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR15
+L Device:D CR15
 U 1 1 5929EB72
 P 6250 11150
 F 0 "CR15" H 6450 11100 50  0000 C CNN
@@ -1031,7 +1000,7 @@ F 3 "" H 6250 11150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR39
+L Device:D CR39
 U 1 1 5929FC96
 P 9400 11150
 F 0 "CR39" H 9600 11100 50  0000 C CNN
@@ -1042,7 +1011,7 @@ F 3 "" H 9400 11150 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR8
+L Device:D CR8
 U 1 1 592A154D
 P 5200 11750
 F 0 "CR8" H 5400 11700 50  0000 C CNN
@@ -1053,7 +1022,7 @@ F 3 "" H 5200 11750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR31
+L Device:D CR31
 U 1 1 592A4701
 P 8350 11750
 F 0 "CR31" H 8550 11700 50  0000 C CNN
@@ -1064,7 +1033,7 @@ F 3 "" H 8350 11750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L D CR43
+L Device:D CR43
 U 1 1 592A9082
 P 4600 11750
 F 0 "CR43" H 4800 11700 50  0000 C CNN
@@ -1075,7 +1044,7 @@ F 3 "" H 4600 11750 60  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Device:R R5
 U 1 1 592A985C
 P 4800 12050
 F 0 "R5" H 4870 12096 50  0000 L CNN
@@ -1086,7 +1055,7 @@ F 3 "" H 4800 12050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Device:R R4
 U 1 1 592AAA42
 P 5400 12050
 F 0 "R4" H 5470 12096 50  0000 L CNN
@@ -1097,7 +1066,7 @@ F 3 "" H 5400 12050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Device:R R6
 U 1 1 592ACF06
 P 6450 12050
 F 0 "R6" H 6520 12096 50  0000 L CNN
@@ -1108,7 +1077,7 @@ F 3 "" H 6450 12050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Device:R R7
 U 1 1 592AD6D6
 P 7500 12050
 F 0 "R7" H 7570 12096 50  0000 L CNN
@@ -1119,7 +1088,7 @@ F 3 "" H 7500 12050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L Device:R R8
 U 1 1 592AE5AD
 P 8550 12050
 F 0 "R8" H 8620 12096 50  0000 L CNN
@@ -1130,7 +1099,7 @@ F 3 "" H 8550 12050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R9
+L Device:R R9
 U 1 1 592AE7C8
 P 9600 12050
 F 0 "R9" H 9670 12096 50  0000 L CNN
@@ -1141,7 +1110,7 @@ F 3 "" H 9600 12050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R12
+L Device:R R12
 U 1 1 592AF317
 P 3950 11950
 F 0 "R12" V 3850 11950 50  0000 C CNN
@@ -1152,7 +1121,7 @@ F 3 "" H 3950 11950 30  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R3
+L Device:R R3
 U 1 1 592B0850
 P 3700 12400
 F 0 "R3" H 3770 12446 50  0000 L CNN
@@ -1169,26 +1138,26 @@ Wire Wire Line
 Wire Wire Line
 	4000 13550 4000 13500
 Wire Wire Line
-	2500 1150 2950 1150
+	2500 1150 2800 1150
 Wire Wire Line
-	2500 1250 2950 1250
+	2500 1250 2900 1250
 Wire Wire Line
 	2500 1350 4050 1350
 Wire Wire Line
 	4050 1350 4050 1300
 Wire Wire Line
-	2500 1450 9200 1450
+	2500 1450 5000 1450
 Wire Wire Line
 	2800 1750 2500 1750
 Wire Wire Line
 	2900 1850 2500 1850
 Wire Wire Line
-	2500 2050 9200 2050
+	2500 2050 5000 2050
 Wire Wire Line
-	2800 1150 2800 11950
+	2800 1150 2800 1750
 Connection ~ 2800 1150
 Wire Wire Line
-	2900 1250 2900 12050
+	2900 1250 2900 1850
 Connection ~ 2900 1250
 Wire Wire Line
 	2500 1550 2550 1550
@@ -1299,37 +1268,37 @@ Wire Wire Line
 	2900 12050 2500 12050
 Connection ~ 2900 11450
 Wire Wire Line
-	2500 2650 9200 2650
+	2500 2650 5000 2650
 Wire Wire Line
 	2500 6250 9200 6250
 Wire Wire Line
-	2500 3250 7100 3250
+	2500 3250 5000 3250
 Wire Wire Line
 	2500 6850 8150 6850
 Wire Wire Line
-	2500 3850 8150 3850
+	2500 3850 5000 3850
 Wire Wire Line
 	2500 5650 5000 5650
 Wire Wire Line
-	2500 4450 8150 4450
+	2500 4450 5000 4450
 Wire Wire Line
-	2500 5050 9200 5050
+	2500 5050 5000 5050
 Wire Wire Line
-	2500 7450 9200 7450
+	2500 7450 8150 7450
 Wire Wire Line
 	2500 8050 7100 8050
 Wire Wire Line
-	2500 8650 9200 8650
+	2500 8650 7100 8650
 Wire Wire Line
-	2500 9250 8150 9250
+	2500 9250 7100 9250
 Wire Wire Line
-	2500 9850 9200 9850
+	2500 9850 7100 9850
 Wire Wire Line
 	2500 10450 6050 10450
 Wire Wire Line
-	2500 11050 9200 11050
+	2500 11050 6050 11050
 Wire Wire Line
-	2500 11650 8150 11650
+	2500 11650 4400 11650
 Wire Wire Line
 	2500 12150 3700 12150
 Wire Wire Line
@@ -1450,7 +1419,7 @@ Connection ~ 5000 1450
 Wire Wire Line
 	5350 1550 5400 1550
 Wire Wire Line
-	5400 1550 5400 11900
+	5400 1550 5400 2150
 Wire Wire Line
 	6050 1450 6050 1550
 Wire Wire Line
@@ -1458,18 +1427,18 @@ Wire Wire Line
 Wire Wire Line
 	6400 1550 6450 1550
 Wire Wire Line
-	6450 1550 6450 11900
+	6450 1550 6450 2750
 Connection ~ 6050 1450
 Wire Wire Line
-	7500 2750 7500 11900
+	7500 2750 7500 3350
 Wire Wire Line
-	8550 2750 8550 11900
+	8550 2750 8550 3950
 Wire Wire Line
 	9200 1550 9250 1550
 Wire Wire Line
 	9550 1550 9600 1550
 Wire Wire Line
-	9600 1550 9600 11900
+	9600 1550 9600 2150
 Wire Wire Line
 	5000 2050 5000 2150
 Wire Wire Line
@@ -1827,14 +1796,14 @@ Wire Wire Line
 Text GLabel 9650 12650 2    60   Output ~ 0
 KEYCODE_1
 $Comp
-L CONN_01X12 J20
+L Connector_Generic:Conn_01x12 J20
 U 1 1 592C42BD
-P 4250 14100
-F 0 "J20" H 4328 14095 50  0000 L CNN
-F 1 "CONN_01X12" H 4328 14050 50  0001 L CNN
-F 2 "" H 4250 14100 60  0000 C CNN
-F 3 "" H 4250 14100 60  0000 C CNN
-	1    4250 14100
+P 4250 14050
+F 0 "J20" H 4328 14045 50  0000 L CNN
+F 1 "CONN_01X12" H 4328 14000 50  0001 L CNN
+F 2 "" H 4250 14050 60  0000 C CNN
+F 3 "" H 4250 14050 60  0000 C CNN
+	1    4250 14050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1843,4 +1812,200 @@ Text GLabel 4050 13650 0    60   Output ~ 0
 EVHI
 Text GLabel 4050 13750 0    60   Input ~ 0
 EVLO
+Wire Wire Line
+	2800 1150 2950 1150
+Wire Wire Line
+	2900 1250 2950 1250
+Wire Wire Line
+	2800 1750 2800 2350
+Wire Wire Line
+	2900 1850 2900 2450
+Wire Wire Line
+	2800 2350 2800 2950
+Wire Wire Line
+	2900 2450 2900 3050
+Wire Wire Line
+	2800 2950 2800 3550
+Wire Wire Line
+	2900 3050 2900 3650
+Wire Wire Line
+	2800 3550 2800 4150
+Wire Wire Line
+	2900 3650 2900 4250
+Wire Wire Line
+	2800 4150 2800 4750
+Wire Wire Line
+	2900 4250 2900 4850
+Wire Wire Line
+	2800 4750 2800 5350
+Wire Wire Line
+	2900 4850 2900 5450
+Wire Wire Line
+	2800 5350 2800 5950
+Wire Wire Line
+	2900 5450 2900 6050
+Wire Wire Line
+	2800 5950 2800 6550
+Wire Wire Line
+	2900 6050 2900 6650
+Wire Wire Line
+	2800 6550 2800 7150
+Wire Wire Line
+	2900 6650 2900 7250
+Wire Wire Line
+	2800 7150 2800 7750
+Wire Wire Line
+	2900 7250 2900 7850
+Wire Wire Line
+	2800 7750 2800 8350
+Wire Wire Line
+	2900 7850 2900 8450
+Wire Wire Line
+	2800 8350 2800 8950
+Wire Wire Line
+	2900 8450 2900 9050
+Wire Wire Line
+	2800 8950 2800 9550
+Wire Wire Line
+	2900 9050 2900 9650
+Wire Wire Line
+	2800 9550 2800 10150
+Wire Wire Line
+	2900 9650 2900 10250
+Wire Wire Line
+	2800 10150 2800 10750
+Wire Wire Line
+	2900 10250 2900 10850
+Wire Wire Line
+	2800 10750 2800 11350
+Wire Wire Line
+	2900 10850 2900 11450
+Wire Wire Line
+	2800 11350 2800 11950
+Wire Wire Line
+	2900 11450 2900 12050
+Wire Wire Line
+	5000 1450 6050 1450
+Wire Wire Line
+	6050 1450 9200 1450
+Wire Wire Line
+	5000 2050 9200 2050
+Wire Wire Line
+	5400 2150 5400 2750
+Wire Wire Line
+	9600 2150 9600 2750
+Wire Wire Line
+	5000 2650 6050 2650
+Wire Wire Line
+	5400 2750 5400 3350
+Wire Wire Line
+	6050 2650 7100 2650
+Wire Wire Line
+	6450 2750 6450 3350
+Wire Wire Line
+	7100 2650 8150 2650
+Wire Wire Line
+	8150 2650 9200 2650
+Wire Wire Line
+	9600 2750 9600 5150
+Wire Wire Line
+	5000 3250 6050 3250
+Wire Wire Line
+	5400 3350 5400 3950
+Wire Wire Line
+	6050 3250 7100 3250
+Wire Wire Line
+	6450 3350 6450 3950
+Wire Wire Line
+	7500 3350 7500 3950
+Wire Wire Line
+	5000 3850 6050 3850
+Wire Wire Line
+	5400 3950 5400 4550
+Wire Wire Line
+	6050 3850 7100 3850
+Wire Wire Line
+	6450 3950 6450 4550
+Wire Wire Line
+	7100 3850 8150 3850
+Wire Wire Line
+	7500 3950 7500 8150
+Wire Wire Line
+	8550 3950 8550 4550
+Wire Wire Line
+	5000 4450 6050 4450
+Wire Wire Line
+	5400 4550 5400 5150
+Wire Wire Line
+	6050 4450 8150 4450
+Wire Wire Line
+	6450 4550 6450 5150
+Wire Wire Line
+	8550 4550 8550 5150
+Wire Wire Line
+	5000 5050 6050 5050
+Wire Wire Line
+	5400 5150 5400 5750
+Wire Wire Line
+	6050 5050 8150 5050
+Wire Wire Line
+	6450 5150 6450 10550
+Wire Wire Line
+	8150 5050 9200 5050
+Wire Wire Line
+	8550 5150 8550 6950
+Wire Wire Line
+	9600 5150 9600 6350
+Wire Wire Line
+	5400 5750 5400 11750
+Wire Wire Line
+	9600 6350 9600 7550
+Wire Wire Line
+	8550 6950 8550 7550
+Wire Wire Line
+	8550 7550 8550 9350
+Wire Wire Line
+	9600 7550 9600 8750
+Wire Wire Line
+	8150 7450 9200 7450
+Wire Wire Line
+	7500 8150 7500 8750
+Wire Wire Line
+	7100 8650 9200 8650
+Wire Wire Line
+	7500 8750 7500 9350
+Wire Wire Line
+	9600 8750 9600 9950
+Wire Wire Line
+	7100 9250 8150 9250
+Wire Wire Line
+	7500 9350 7500 9950
+Wire Wire Line
+	8550 9350 8550 9950
+Wire Wire Line
+	7100 9850 8150 9850
+Wire Wire Line
+	7500 9950 7500 11900
+Wire Wire Line
+	8150 9850 9200 9850
+Wire Wire Line
+	8550 9950 8550 11750
+Wire Wire Line
+	9600 9950 9600 11150
+Wire Wire Line
+	6450 10550 6450 11150
+Wire Wire Line
+	6050 11050 9200 11050
+Wire Wire Line
+	6450 11150 6450 11900
+Wire Wire Line
+	9600 11150 9600 11900
+Wire Wire Line
+	5000 11650 8150 11650
+Wire Wire Line
+	5400 11750 5400 11900
+Wire Wire Line
+	8550 11750 8550 11900
+Wire Wire Line
+	4400 11650 5000 11650
 $EndSCHEMATC

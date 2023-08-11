@@ -1,39 +1,9 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:agc_kicad_components
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:scaler-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 15 35
+Sheet 35 35
 Title ""
 Date ""
 Rev ""
@@ -44,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74HC27 U1102
+L agc_kicad_components:74HC27 U1102
 U 1 1 562B307E
 P 2550 1900
 AR Path="/562BF6E2/562C1A68/562B307E" Ref="U1102"  Part="1" 
@@ -87,7 +57,7 @@ F 3 "" H 2550 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC27 U1102
+L agc_kicad_components:74HC27 U1102
 U 2 1 562B317D
 P 2550 2600
 AR Path="/562BF6E2/562C1A68/562B317D" Ref="U1102"  Part="2" 
@@ -130,7 +100,7 @@ F 3 "" H 2550 2600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U1101
+L agc_kicad_components:74HC02 U1101
 U 1 1 562B323A
 P 2550 1200
 AR Path="/562BF6E2/562C1A68/562B323A" Ref="U1101"  Part="1" 
@@ -174,7 +144,7 @@ F 4 "1" H 2800 1200 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U1101
+L agc_kicad_components:74HC02 U1101
 U 2 1 562B333D
 P 2550 3300
 AR Path="/562BF6E2/562C1A68/562B333D" Ref="U1101"  Part="2" 
@@ -217,7 +187,7 @@ F 3 "" H 2550 3300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U1101
+L agc_kicad_components:74HC02 U1101
 U 3 1 562B3400
 P 4000 1900
 AR Path="/562BF6E2/562C1A68/562B3400" Ref="U1101"  Part="3" 
@@ -260,7 +230,7 @@ F 3 "" H 4000 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74HC02 U1101
+L agc_kicad_components:74HC02 U1101
 U 4 1 562B34AD
 P 4000 2600
 AR Path="/562BF6E2/562C1A68/562B34AD" Ref="U1101"  Part="4" 
@@ -304,7 +274,7 @@ F 4 "1" H 4250 2600 60  0000 C CIN "Initial"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3150 1650 3150 2150
+	3150 1650 3150 1800
 Wire Wire Line
 	3150 1650 1950 1450
 Wire Wire Line
@@ -316,7 +286,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 1650 1950 1750
 Wire Wire Line
-	3150 2350 3150 2850
+	3150 2350 3150 2600
 Wire Wire Line
 	3150 2350 1950 2150
 Wire Wire Line
@@ -338,19 +308,19 @@ Wire Wire Line
 Wire Wire Line
 	1950 2850 1950 2750
 Wire Wire Line
-	1700 1900 1950 1900
+	1700 1900 1850 1900
 Wire Wire Line
 	1850 1900 1850 2600
 Wire Wire Line
 	1850 2600 1950 2600
 Wire Wire Line
-	4600 2350 4600 3600
+	4600 2350 4600 2600
 Wire Wire Line
 	4600 2350 3400 2150
 Wire Wire Line
 	3400 2150 3400 2000
 Wire Wire Line
-	4600 900  4600 2150
+	4600 900  4600 1900
 Wire Wire Line
 	4600 2150 3400 2350
 Wire Wire Line
@@ -390,4 +360,20 @@ Text HLabel 4800 1200 2    60   Output ~ 0
 A
 Text HLabel 4800 3300 2    60   Output ~ 0
 B
+Wire Wire Line
+	3150 1900 3150 2150
+Wire Wire Line
+	3150 2600 3150 2700
+Wire Wire Line
+	3150 2700 3150 2850
+Wire Wire Line
+	3150 1800 3150 1900
+Wire Wire Line
+	4600 1900 4600 2150
+Wire Wire Line
+	4600 2600 4600 3600
+Wire Wire Line
+	1850 1900 1950 1900
+Text Notes 11150 7100 2    400  ~ 0
+A01
 $EndSCHEMATC
