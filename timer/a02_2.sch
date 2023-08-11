@@ -1444,4 +1444,6 @@ Wire Wire Line
 	17550 800  18850 800 
 Wire Wire Line
 	9550 1700 9550 1800
+Text Notes 22850 15350 2    400  ~ 0
+A02
 $EndSCHEMATC

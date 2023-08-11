@@ -916,4 +916,6 @@ Wire Wire Line
 	3750 1200 5900 1200
 Wire Wire Line
 	14500 3500 16650 3500
+Text Notes 22850 15350 2    400  ~ 0
+A01
 $EndSCHEMATC
